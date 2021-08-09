@@ -1,0 +1,1052 @@
+{
+  "address": "0x617a29D26bCa79e1BD314D932B6acbBAC696Fbba",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_maximumTapRateIncreasePct",
+          "type": "uint256"
+        }
+      ],
+      "name": "updateMaximumTapRateIncreasePct",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "hasInitialized",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "UPDATE_CONTROLLER_ROLE",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_beneficiary",
+          "type": "address"
+        }
+      ],
+      "name": "updateBeneficiary",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "_script",
+          "type": "bytes"
+        }
+      ],
+      "name": "getEVMScriptExecutor",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "getRecoveryVault",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "beneficiary",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "UPDATE_BENEFICIARY_ROLE",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_token",
+          "type": "address"
+        }
+      ],
+      "name": "removeTappedToken",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "maximumTapRateIncreasePct",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_token",
+          "type": "address"
+        }
+      ],
+      "name": "withdraw",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "lastTappedAmountUpdates",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "tappedAmounts",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "ADD_TAPPED_TOKEN_ROLE",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_controller",
+          "type": "address"
+        },
+        {
+          "name": "_reserve",
+          "type": "address"
+        },
+        {
+          "name": "_beneficiary",
+          "type": "address"
+        },
+        {
+          "name": "_batchBlocks",
+          "type": "uint256"
+        },
+        {
+          "name": "_maximumTapRateIncreasePct",
+          "type": "uint256"
+        },
+        {
+          "name": "_maximumTapFloorDecreasePct",
+          "type": "uint256"
+        }
+      ],
+      "name": "initialize",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "RESET_TAPPED_TOKEN_ROLE",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "token",
+          "type": "address"
+        }
+      ],
+      "name": "allowRecoverability",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "appId",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_token",
+          "type": "address"
+        }
+      ],
+      "name": "updateTappedAmount",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "getInitializationBlock",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_token",
+          "type": "address"
+        }
+      ],
+      "name": "resetTappedToken",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_token",
+          "type": "address"
+        }
+      ],
+      "name": "transferToVault",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "_sender",
+          "type": "address"
+        },
+        {
+          "name": "_role",
+          "type": "bytes32"
+        },
+        {
+          "name": "_params",
+          "type": "uint256[]"
+        }
+      ],
+      "name": "canPerform",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "getEVMScriptRegistry",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "UPDATE_RESERVE_ROLE",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "_token",
+          "type": "address"
+        }
+      ],
+      "name": "rates",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_token",
+          "type": "address"
+        },
+        {
+          "name": "_rate",
+          "type": "uint256"
+        },
+        {
+          "name": "_floor",
+          "type": "uint256"
+        }
+      ],
+      "name": "addTappedToken",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "UPDATE_TAPPED_TOKEN_ROLE",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "UPDATE_MAXIMUM_TAP_RATE_INCREASE_PCT_ROLE",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "batchBlocks",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "floors",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "UPDATE_MAXIMUM_TAP_FLOOR_DECREASE_PCT_ROLE",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "reserve",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "REMOVE_TAPPED_TOKEN_ROLE",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_maximumTapFloorDecreasePct",
+          "type": "uint256"
+        }
+      ],
+      "name": "updateMaximumTapFloorDecreasePct",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "kernel",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "isPetrified",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "WITHDRAW_ROLE",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "lastTapUpdates",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "_token",
+          "type": "address"
+        }
+      ],
+      "name": "getMaximumWithdrawal",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "maximumTapFloorDecreasePct",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_token",
+          "type": "address"
+        },
+        {
+          "name": "_rate",
+          "type": "uint256"
+        },
+        {
+          "name": "_floor",
+          "type": "uint256"
+        }
+      ],
+      "name": "updateTappedToken",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "controller",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "PCT_BASE",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "beneficiary",
+          "type": "address"
+        }
+      ],
+      "name": "UpdateBeneficiary",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "maximumTapRateIncreasePct",
+          "type": "uint256"
+        }
+      ],
+      "name": "UpdateMaximumTapRateIncreasePct",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "maximumTapFloorDecreasePct",
+          "type": "uint256"
+        }
+      ],
+      "name": "UpdateMaximumTapFloorDecreasePct",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "token",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "rate",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "name": "floor",
+          "type": "uint256"
+        }
+      ],
+      "name": "AddTappedToken",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "token",
+          "type": "address"
+        }
+      ],
+      "name": "RemoveTappedToken",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "token",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "rate",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "name": "floor",
+          "type": "uint256"
+        }
+      ],
+      "name": "UpdateTappedToken",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "token",
+          "type": "address"
+        }
+      ],
+      "name": "ResetTappedToken",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "token",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "tappedAmount",
+          "type": "uint256"
+        }
+      ],
+      "name": "UpdateTappedAmount",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "token",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "Withdraw",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "executor",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "script",
+          "type": "bytes"
+        },
+        {
+          "indexed": false,
+          "name": "input",
+          "type": "bytes"
+        },
+        {
+          "indexed": false,
+          "name": "returnData",
+          "type": "bytes"
+        }
+      ],
+      "name": "ScriptResult",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "name": "vault",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "name": "token",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "RecoverToVault",
+      "type": "event"
+    }
+  ],
+  "transactionHash": "0xa8d6096cdc2023efe2d78436631af4c7c36b758f8fdf2b8e2a0bccfa1c1a3917",
+  "receipt": {
+    "to": "0x4e59b44847b379578588920cA78FbF26c0B4956C",
+    "from": "0x4355a2cdec902C372F404007114bbCf2C65A3eb0",
+    "contractAddress": null,
+    "transactionIndex": 2,
+    "gasUsed": "3217904",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0x9a2442882f490756d38f977825a180e29dc14df7a638d234ba887554acb6d967",
+    "transactionHash": "0xa8d6096cdc2023efe2d78436631af4c7c36b758f8fdf2b8e2a0bccfa1c1a3917",
+    "logs": [],
+    "blockNumber": 17493068,
+    "cumulativeGasUsed": "3377637",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [],
+  "solcInputHash": "f5d37b8fe985db390d204e972b426bf3",
+  "metadata": "{\"compiler\":{\"version\":\"0.4.24+commit.e67f0147\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[{\"name\":\"_maximumTapRateIncreasePct\",\"type\":\"uint256\"}],\"name\":\"updateMaximumTapRateIncreasePct\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"hasInitialized\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"UPDATE_CONTROLLER_ROLE\",\"outputs\":[{\"name\":\"\",\"type\":\"bytes32\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"_beneficiary\",\"type\":\"address\"}],\"name\":\"updateBeneficiary\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"_script\",\"type\":\"bytes\"}],\"name\":\"getEVMScriptExecutor\",\"outputs\":[{\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getRecoveryVault\",\"outputs\":[{\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"beneficiary\",\"outputs\":[{\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"UPDATE_BENEFICIARY_ROLE\",\"outputs\":[{\"name\":\"\",\"type\":\"bytes32\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"_token\",\"type\":\"address\"}],\"name\":\"removeTappedToken\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"maximumTapRateIncreasePct\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"_token\",\"type\":\"address\"}],\"name\":\"withdraw\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"\",\"type\":\"address\"}],\"name\":\"lastTappedAmountUpdates\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"\",\"type\":\"address\"}],\"name\":\"tappedAmounts\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"ADD_TAPPED_TOKEN_ROLE\",\"outputs\":[{\"name\":\"\",\"type\":\"bytes32\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"_controller\",\"type\":\"address\"},{\"name\":\"_reserve\",\"type\":\"address\"},{\"name\":\"_beneficiary\",\"type\":\"address\"},{\"name\":\"_batchBlocks\",\"type\":\"uint256\"},{\"name\":\"_maximumTapRateIncreasePct\",\"type\":\"uint256\"},{\"name\":\"_maximumTapFloorDecreasePct\",\"type\":\"uint256\"}],\"name\":\"initialize\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"RESET_TAPPED_TOKEN_ROLE\",\"outputs\":[{\"name\":\"\",\"type\":\"bytes32\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"token\",\"type\":\"address\"}],\"name\":\"allowRecoverability\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"appId\",\"outputs\":[{\"name\":\"\",\"type\":\"bytes32\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"_token\",\"type\":\"address\"}],\"name\":\"updateTappedAmount\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getInitializationBlock\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"_token\",\"type\":\"address\"}],\"name\":\"resetTappedToken\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"_token\",\"type\":\"address\"}],\"name\":\"transferToVault\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"_sender\",\"type\":\"address\"},{\"name\":\"_role\",\"type\":\"bytes32\"},{\"name\":\"_params\",\"type\":\"uint256[]\"}],\"name\":\"canPerform\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getEVMScriptRegistry\",\"outputs\":[{\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"UPDATE_RESERVE_ROLE\",\"outputs\":[{\"name\":\"\",\"type\":\"bytes32\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"_token\",\"type\":\"address\"}],\"name\":\"rates\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"_token\",\"type\":\"address\"},{\"name\":\"_rate\",\"type\":\"uint256\"},{\"name\":\"_floor\",\"type\":\"uint256\"}],\"name\":\"addTappedToken\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"UPDATE_TAPPED_TOKEN_ROLE\",\"outputs\":[{\"name\":\"\",\"type\":\"bytes32\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"UPDATE_MAXIMUM_TAP_RATE_INCREASE_PCT_ROLE\",\"outputs\":[{\"name\":\"\",\"type\":\"bytes32\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"batchBlocks\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"\",\"type\":\"address\"}],\"name\":\"floors\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"UPDATE_MAXIMUM_TAP_FLOOR_DECREASE_PCT_ROLE\",\"outputs\":[{\"name\":\"\",\"type\":\"bytes32\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"reserve\",\"outputs\":[{\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"REMOVE_TAPPED_TOKEN_ROLE\",\"outputs\":[{\"name\":\"\",\"type\":\"bytes32\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"_maximumTapFloorDecreasePct\",\"type\":\"uint256\"}],\"name\":\"updateMaximumTapFloorDecreasePct\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"kernel\",\"outputs\":[{\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"isPetrified\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"WITHDRAW_ROLE\",\"outputs\":[{\"name\":\"\",\"type\":\"bytes32\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"\",\"type\":\"address\"}],\"name\":\"lastTapUpdates\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"_token\",\"type\":\"address\"}],\"name\":\"getMaximumWithdrawal\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"maximumTapFloorDecreasePct\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"_token\",\"type\":\"address\"},{\"name\":\"_rate\",\"type\":\"uint256\"},{\"name\":\"_floor\",\"type\":\"uint256\"}],\"name\":\"updateTappedToken\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"controller\",\"outputs\":[{\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"PCT_BASE\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"beneficiary\",\"type\":\"address\"}],\"name\":\"UpdateBeneficiary\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"name\":\"maximumTapRateIncreasePct\",\"type\":\"uint256\"}],\"name\":\"UpdateMaximumTapRateIncreasePct\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"name\":\"maximumTapFloorDecreasePct\",\"type\":\"uint256\"}],\"name\":\"UpdateMaximumTapFloorDecreasePct\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"token\",\"type\":\"address\"},{\"indexed\":false,\"name\":\"rate\",\"type\":\"uint256\"},{\"indexed\":false,\"name\":\"floor\",\"type\":\"uint256\"}],\"name\":\"AddTappedToken\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"token\",\"type\":\"address\"}],\"name\":\"RemoveTappedToken\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"token\",\"type\":\"address\"},{\"indexed\":false,\"name\":\"rate\",\"type\":\"uint256\"},{\"indexed\":false,\"name\":\"floor\",\"type\":\"uint256\"}],\"name\":\"UpdateTappedToken\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"token\",\"type\":\"address\"}],\"name\":\"ResetTappedToken\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"token\",\"type\":\"address\"},{\"indexed\":false,\"name\":\"tappedAmount\",\"type\":\"uint256\"}],\"name\":\"UpdateTappedAmount\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"token\",\"type\":\"address\"},{\"indexed\":false,\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"Withdraw\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"executor\",\"type\":\"address\"},{\"indexed\":false,\"name\":\"script\",\"type\":\"bytes\"},{\"indexed\":false,\"name\":\"input\",\"type\":\"bytes\"},{\"indexed\":false,\"name\":\"returnData\",\"type\":\"bytes\"}],\"name\":\"ScriptResult\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"vault\",\"type\":\"address\"},{\"indexed\":true,\"name\":\"token\",\"type\":\"address\"},{\"indexed\":false,\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"RecoverToVault\",\"type\":\"event\"}],\"devdoc\":{\"methods\":{\"addTappedToken(address,uint256,uint256)\":{\"params\":{\"_floor\":\"The floor above which the reserve [pool] balance for that token is to be kept [in wei]\",\"_rate\":\"The rate at which that token is to be tapped [in wei / block]\",\"_token\":\"The address of the token to be tapped\"}},\"allowRecoverability(address)\":{\"details\":\"By default deriving from AragonApp makes it recoverable\",\"params\":{\"token\":\"Token address that would be recovered\"},\"return\":\"bool whether the app allows the recovery\"},\"canPerform(address,bytes32,uint256[])\":{\"details\":\"Check whether an action can be performed by a sender for a particular role on this app\",\"params\":{\"_params\":\"Permission params for the role\",\"_role\":\"Role on this app\",\"_sender\":\"Sender of the call\"},\"return\":\"Boolean indicating whether the sender has the permissions to perform the action.        Always returns false if the app hasn't been initialized yet.\"},\"getInitializationBlock()\":{\"return\":\"Block number in which the contract was initialized\"},\"getRecoveryVault()\":{\"details\":\"Get the recovery vault for the app\",\"return\":\"Recovery vault address for the app\"},\"hasInitialized()\":{\"return\":\"Whether the contract has been initialized by the time of the current block\"},\"initialize(address,address,address,uint256,uint256,uint256)\":{\"params\":{\"_batchBlocks\":\"The number of blocks batches are to last\",\"_beneficiary\":\"The address of the beneficiary [to whom funds are to be withdrawn]\",\"_controller\":\"The address of the controller contract\",\"_maximumTapFloorDecreasePct\":\"The maximum tap floor decrease percentage allowed [in PCT_BASE]\",\"_maximumTapRateIncreasePct\":\"The maximum tap rate increase percentage allowed [in PCT_BASE]\",\"_reserve\":\"The address of the reserve [pool] contract\"}},\"removeTappedToken(address)\":{\"params\":{\"_token\":\"The address of the token to be un-tapped\"}},\"resetTappedToken(address)\":{\"params\":{\"_token\":\"The address of the token whose tap timestamps are to be reset\"}},\"transferToVault(address)\":{\"params\":{\"_token\":\"Token balance to be sent to recovery vault.\"}},\"updateBeneficiary(address)\":{\"params\":{\"_beneficiary\":\"The address of the new beneficiary [to whom funds are to be withdrawn]\"}},\"updateMaximumTapFloorDecreasePct(uint256)\":{\"params\":{\"_maximumTapFloorDecreasePct\":\"The new maximum tap floor decrease percentage to be allowed [in PCT_BASE]\"}},\"updateMaximumTapRateIncreasePct(uint256)\":{\"params\":{\"_maximumTapRateIncreasePct\":\"The new maximum tap rate increase percentage to be allowed [in PCT_BASE]\"}},\"updateTappedAmount(address)\":{\"params\":{\"_token\":\"The address of the token whose tapped amount is to be updated\"}},\"updateTappedToken(address,uint256,uint256)\":{\"params\":{\"_floor\":\"The new floor above which the reserve [pool] balance for that token is to be kept [in wei]\",\"_rate\":\"The new rate at which that token is to be tapped [in wei / block]\",\"_token\":\"The address of the token whose tap is to be updated\"}},\"withdraw(address)\":{\"params\":{\"_token\":\"The address of the token to be transfered\"}}}},\"userdoc\":{\"methods\":{\"addTappedToken(address,uint256,uint256)\":{\"notice\":\"Add tap for `_token.symbol(): string` with a rate of `@tokenAmount(_token, _rate)` per block and a floor of `@tokenAmount(_token, _floor)`\"},\"getMaximumWithdrawal(address)\":{\"notice\":\"*** public view functions ****\"},\"initialize(address,address,address,uint256,uint256,uint256)\":{\"notice\":\"Initialize tap\"},\"removeTappedToken(address)\":{\"notice\":\"Remove tap for `_token.symbol(): string`\"},\"resetTappedToken(address)\":{\"notice\":\"Reset tap timestamps for `_token.symbol(): string`\"},\"transferToVault(address)\":{\"notice\":\"Send funds to recovery Vault. This contract should never receive funds,        but in case it does, this function allows one to recover them.\"},\"updateBeneficiary(address)\":{\"notice\":\"Update beneficiary to `_beneficiary`\"},\"updateMaximumTapFloorDecreasePct(uint256)\":{\"notice\":\"Update maximum tap floor decrease percentage to `@formatPct(_maximumTapFloorDecreasePct)`%\"},\"updateMaximumTapRateIncreasePct(uint256)\":{\"notice\":\"Update maximum tap rate increase percentage to `@formatPct(_maximumTapRateIncreasePct)`%\"},\"updateTappedAmount(address)\":{\"notice\":\"Update tapped amount for `_token.symbol(): string`\"},\"updateTappedToken(address,uint256,uint256)\":{\"notice\":\"Update tap for `_token.symbol(): string` with a rate of `@tokenAmount(_token, _rate)` per block and a floor of `@tokenAmount(_token, _floor)`\"},\"withdraw(address)\":{\"notice\":\"Transfer about `@tokenAmount(_token, self.getMaximalWithdrawal(_token): uint256)` from `self.reserve()` to `self.beneficiary()`\"}}}},\"settings\":{\"compilationTarget\":{\"contracts/Tap.sol\":\"Tap\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":10000},\"remappings\":[]},\"sources\":{\"@ablack/fundraising-shared-interfaces/contracts/IAragonFundraisingController.sol\":{\"content\":\"pragma solidity 0.4.24;\\n\\n\\ncontract IAragonFundraisingController {\\n    function openTrading() external;\\n    function updateTappedAmount(address _token) external;\\n    function collateralsToBeClaimed(address _collateral) public view returns (uint256);\\n    function balanceOf(address _who, address _token) public view returns (uint256);\\n}\\n\",\"keccak256\":\"0x0cb702ca7fcfbf63f1b34ccad6f60780b416feb6062646d643dd8147cd66bdf0\"},\"@ablack/fundraising-shared-interfaces/contracts/ITap.sol\":{\"content\":\"pragma solidity 0.4.24;\\n\\n\\ncontract ITap {\\n     function updateBeneficiary(address _beneficiary) external;\\n     function updateMaximumTapRateIncreasePct(uint256 _maximumTapRateIncreasePct) external;\\n     function updateMaximumTapFloorDecreasePct(uint256 _maximumTapFloorDecreasePct) external;\\n     function addTappedToken(address _token, uint256 _rate, uint256 _floor) external;\\n     function updateTappedToken(address _token, uint256 _rate, uint256 _floor) external;\\n     function resetTappedToken(address _token) external;\\n     function updateTappedAmount(address _token) external;\\n     function withdraw(address _token) external;\\n     function getMaximumWithdrawal(address _token) public view returns (uint256);\\n     function rates(address _token) public view returns (uint256);\\n }\",\"keccak256\":\"0xf4e8cc3c829bbe5d21426945a2d26d634061d2f7cd1d4c10b10efbde7cc47484\"},\"@aragon/apps-vault/contracts/Vault.sol\":{\"content\":\"pragma solidity 0.4.24;\\n\\nimport \\\"@aragon/os/contracts/apps/AragonApp.sol\\\";\\nimport \\\"@aragon/os/contracts/common/DepositableStorage.sol\\\";\\nimport \\\"@aragon/os/contracts/common/EtherTokenConstant.sol\\\";\\nimport \\\"@aragon/os/contracts/common/SafeERC20.sol\\\";\\nimport \\\"@aragon/os/contracts/lib/token/ERC20.sol\\\";\\n\\n\\ncontract Vault is EtherTokenConstant, AragonApp, DepositableStorage {\\n    using SafeERC20 for ERC20;\\n\\n    bytes32 public constant TRANSFER_ROLE = keccak256(\\\"TRANSFER_ROLE\\\");\\n\\n    string private constant ERROR_DATA_NON_ZERO = \\\"VAULT_DATA_NON_ZERO\\\";\\n    string private constant ERROR_NOT_DEPOSITABLE = \\\"VAULT_NOT_DEPOSITABLE\\\";\\n    string private constant ERROR_DEPOSIT_VALUE_ZERO = \\\"VAULT_DEPOSIT_VALUE_ZERO\\\";\\n    string private constant ERROR_TRANSFER_VALUE_ZERO = \\\"VAULT_TRANSFER_VALUE_ZERO\\\";\\n    string private constant ERROR_SEND_REVERTED = \\\"VAULT_SEND_REVERTED\\\";\\n    string private constant ERROR_VALUE_MISMATCH = \\\"VAULT_VALUE_MISMATCH\\\";\\n    string private constant ERROR_TOKEN_TRANSFER_FROM_REVERTED = \\\"VAULT_TOKEN_TRANSFER_FROM_REVERT\\\";\\n    string private constant ERROR_TOKEN_TRANSFER_REVERTED = \\\"VAULT_TOKEN_TRANSFER_REVERTED\\\";\\n\\n    event VaultTransfer(address indexed token, address indexed to, uint256 amount);\\n    event VaultDeposit(address indexed token, address indexed sender, uint256 amount);\\n\\n    /**\\n    * @dev On a normal send() or transfer() this fallback is never executed as it will be\\n    *      intercepted by the Proxy (see aragonOS#281)\\n    */\\n    function () external payable isInitialized {\\n        require(msg.data.length == 0, ERROR_DATA_NON_ZERO);\\n        _deposit(ETH, msg.value);\\n    }\\n\\n    /**\\n    * @notice Initialize Vault app\\n    * @dev As an AragonApp it needs to be initialized in order for roles (`auth` and `authP`) to work\\n    */\\n    function initialize() external onlyInit {\\n        initialized();\\n        setDepositable(true);\\n    }\\n\\n    /**\\n    * @notice Deposit `_value` `_token` to the vault\\n    * @param _token Address of the token being transferred\\n    * @param _value Amount of tokens being transferred\\n    */\\n    function deposit(address _token, uint256 _value) external payable isInitialized {\\n        _deposit(_token, _value);\\n    }\\n\\n    /**\\n    * @notice Transfer `_value` `_token` from the Vault to `_to`\\n    * @param _token Address of the token being transferred\\n    * @param _to Address of the recipient of tokens\\n    * @param _value Amount of tokens being transferred\\n    */\\n    /* solium-disable-next-line function-order */\\n    function transfer(address _token, address _to, uint256 _value)\\n        external\\n        authP(TRANSFER_ROLE, arr(_token, _to, _value))\\n    {\\n        require(_value > 0, ERROR_TRANSFER_VALUE_ZERO);\\n\\n        if (_token == ETH) {\\n            require(_to.send(_value), ERROR_SEND_REVERTED);\\n        } else {\\n            require(ERC20(_token).safeTransfer(_to, _value), ERROR_TOKEN_TRANSFER_REVERTED);\\n        }\\n\\n        emit VaultTransfer(_token, _to, _value);\\n    }\\n\\n    function balance(address _token) public view returns (uint256) {\\n        if (_token == ETH) {\\n            return address(this).balance;\\n        } else {\\n            return ERC20(_token).staticBalanceOf(address(this));\\n        }\\n    }\\n\\n    /**\\n    * @dev Disable recovery escape hatch, as it could be used\\n    *      maliciously to transfer funds away from the vault\\n    */\\n    function allowRecoverability(address) public view returns (bool) {\\n        return false;\\n    }\\n\\n    function _deposit(address _token, uint256 _value) internal {\\n        require(isDepositable(), ERROR_NOT_DEPOSITABLE);\\n        require(_value > 0, ERROR_DEPOSIT_VALUE_ZERO);\\n\\n        if (_token == ETH) {\\n            // Deposit is implicit in this case\\n            require(msg.value == _value, ERROR_VALUE_MISMATCH);\\n        } else {\\n            require(\\n                ERC20(_token).safeTransferFrom(msg.sender, address(this), _value),\\n                ERROR_TOKEN_TRANSFER_FROM_REVERTED\\n            );\\n        }\\n\\n        emit VaultDeposit(_token, msg.sender, _value);\\n    }\\n}\\n\",\"keccak256\":\"0x760b4fd895153fd398391df3b27474d1913d792fadec2172dd10d3686d3416e6\"},\"@aragon/os/contracts/acl/ACLSyntaxSugar.sol\":{\"content\":\"/*\\n * SPDX-License-Identitifer:    MIT\\n */\\n\\npragma solidity ^0.4.24;\\n\\n\\ncontract ACLSyntaxSugar {\\n    function arr() internal pure returns (uint256[]) {\\n        return new uint256[](0);\\n    }\\n\\n    function arr(bytes32 _a) internal pure returns (uint256[] r) {\\n        return arr(uint256(_a));\\n    }\\n\\n    function arr(bytes32 _a, bytes32 _b) internal pure returns (uint256[] r) {\\n        return arr(uint256(_a), uint256(_b));\\n    }\\n\\n    function arr(address _a) internal pure returns (uint256[] r) {\\n        return arr(uint256(_a));\\n    }\\n\\n    function arr(address _a, address _b) internal pure returns (uint256[] r) {\\n        return arr(uint256(_a), uint256(_b));\\n    }\\n\\n    function arr(address _a, uint256 _b, uint256 _c) internal pure returns (uint256[] r) {\\n        return arr(uint256(_a), _b, _c);\\n    }\\n\\n    function arr(address _a, uint256 _b, uint256 _c, uint256 _d) internal pure returns (uint256[] r) {\\n        return arr(uint256(_a), _b, _c, _d);\\n    }\\n\\n    function arr(address _a, uint256 _b) internal pure returns (uint256[] r) {\\n        return arr(uint256(_a), uint256(_b));\\n    }\\n\\n    function arr(address _a, address _b, uint256 _c, uint256 _d, uint256 _e) internal pure returns (uint256[] r) {\\n        return arr(uint256(_a), uint256(_b), _c, _d, _e);\\n    }\\n\\n    function arr(address _a, address _b, address _c) internal pure returns (uint256[] r) {\\n        return arr(uint256(_a), uint256(_b), uint256(_c));\\n    }\\n\\n    function arr(address _a, address _b, uint256 _c) internal pure returns (uint256[] r) {\\n        return arr(uint256(_a), uint256(_b), uint256(_c));\\n    }\\n\\n    function arr(uint256 _a) internal pure returns (uint256[] r) {\\n        r = new uint256[](1);\\n        r[0] = _a;\\n    }\\n\\n    function arr(uint256 _a, uint256 _b) internal pure returns (uint256[] r) {\\n        r = new uint256[](2);\\n        r[0] = _a;\\n        r[1] = _b;\\n    }\\n\\n    function arr(uint256 _a, uint256 _b, uint256 _c) internal pure returns (uint256[] r) {\\n        r = new uint256[](3);\\n        r[0] = _a;\\n        r[1] = _b;\\n        r[2] = _c;\\n    }\\n\\n    function arr(uint256 _a, uint256 _b, uint256 _c, uint256 _d) internal pure returns (uint256[] r) {\\n        r = new uint256[](4);\\n        r[0] = _a;\\n        r[1] = _b;\\n        r[2] = _c;\\n        r[3] = _d;\\n    }\\n\\n    function arr(uint256 _a, uint256 _b, uint256 _c, uint256 _d, uint256 _e) internal pure returns (uint256[] r) {\\n        r = new uint256[](5);\\n        r[0] = _a;\\n        r[1] = _b;\\n        r[2] = _c;\\n        r[3] = _d;\\n        r[4] = _e;\\n    }\\n}\\n\\n\\ncontract ACLHelpers {\\n    function decodeParamOp(uint256 _x) internal pure returns (uint8 b) {\\n        return uint8(_x >> (8 * 30));\\n    }\\n\\n    function decodeParamId(uint256 _x) internal pure returns (uint8 b) {\\n        return uint8(_x >> (8 * 31));\\n    }\\n\\n    function decodeParamsList(uint256 _x) internal pure returns (uint32 a, uint32 b, uint32 c) {\\n        a = uint32(_x);\\n        b = uint32(_x >> (8 * 4));\\n        c = uint32(_x >> (8 * 8));\\n    }\\n}\\n\",\"keccak256\":\"0x519915c14576b679b5ed5767d6b21b44a13aa7ae2fe7b33664ca364fafc33e00\"},\"@aragon/os/contracts/acl/IACL.sol\":{\"content\":\"/*\\n * SPDX-License-Identitifer:    MIT\\n */\\n\\npragma solidity ^0.4.24;\\n\\n\\ninterface IACL {\\n    function initialize(address permissionsCreator) external;\\n\\n    // TODO: this should be external\\n    // See https://github.com/ethereum/solidity/issues/4832\\n    function hasPermission(address who, address where, bytes32 what, bytes how) public view returns (bool);\\n}\\n\",\"keccak256\":\"0xe3492bc29d2482e65d2e39c96487b5388f6181f6bcdc6fe6329b8206b84c0cf1\"},\"@aragon/os/contracts/apps/AppStorage.sol\":{\"content\":\"/*\\n * SPDX-License-Identitifer:    MIT\\n */\\n\\npragma solidity ^0.4.24;\\n\\nimport \\\"../common/UnstructuredStorage.sol\\\";\\nimport \\\"../kernel/IKernel.sol\\\";\\n\\n\\ncontract AppStorage {\\n    using UnstructuredStorage for bytes32;\\n\\n    /* Hardcoded constants to save gas\\n    bytes32 internal constant KERNEL_POSITION = keccak256(\\\"aragonOS.appStorage.kernel\\\");\\n    bytes32 internal constant APP_ID_POSITION = keccak256(\\\"aragonOS.appStorage.appId\\\");\\n    */\\n    bytes32 internal constant KERNEL_POSITION = 0x4172f0f7d2289153072b0a6ca36959e0cbe2efc3afe50fc81636caa96338137b;\\n    bytes32 internal constant APP_ID_POSITION = 0xd625496217aa6a3453eecb9c3489dc5a53e6c67b444329ea2b2cbc9ff547639b;\\n\\n    function kernel() public view returns (IKernel) {\\n        return IKernel(KERNEL_POSITION.getStorageAddress());\\n    }\\n\\n    function appId() public view returns (bytes32) {\\n        return APP_ID_POSITION.getStorageBytes32();\\n    }\\n\\n    function setKernel(IKernel _kernel) internal {\\n        KERNEL_POSITION.setStorageAddress(address(_kernel));\\n    }\\n\\n    function setAppId(bytes32 _appId) internal {\\n        APP_ID_POSITION.setStorageBytes32(_appId);\\n    }\\n}\\n\",\"keccak256\":\"0xb1c8eb71d1bdfe1241cc1714b280b46bbfc5bcb1e8499d42c24d3f5f5e8130f1\"},\"@aragon/os/contracts/apps/AragonApp.sol\":{\"content\":\"/*\\n * SPDX-License-Identitifer:    MIT\\n */\\n\\npragma solidity ^0.4.24;\\n\\nimport \\\"./AppStorage.sol\\\";\\nimport \\\"../acl/ACLSyntaxSugar.sol\\\";\\nimport \\\"../common/Autopetrified.sol\\\";\\nimport \\\"../common/ConversionHelpers.sol\\\";\\nimport \\\"../common/ReentrancyGuard.sol\\\";\\nimport \\\"../common/VaultRecoverable.sol\\\";\\nimport \\\"../evmscript/EVMScriptRunner.sol\\\";\\n\\n\\n// Contracts inheriting from AragonApp are, by default, immediately petrified upon deployment so\\n// that they can never be initialized.\\n// Unless overriden, this behaviour enforces those contracts to be usable only behind an AppProxy.\\n// ReentrancyGuard, EVMScriptRunner, and ACLSyntaxSugar are not directly used by this contract, but\\n// are included so that they are automatically usable by subclassing contracts\\ncontract AragonApp is AppStorage, Autopetrified, VaultRecoverable, ReentrancyGuard, EVMScriptRunner, ACLSyntaxSugar {\\n    string private constant ERROR_AUTH_FAILED = \\\"APP_AUTH_FAILED\\\";\\n\\n    modifier auth(bytes32 _role) {\\n        require(canPerform(msg.sender, _role, new uint256[](0)), ERROR_AUTH_FAILED);\\n        _;\\n    }\\n\\n    modifier authP(bytes32 _role, uint256[] _params) {\\n        require(canPerform(msg.sender, _role, _params), ERROR_AUTH_FAILED);\\n        _;\\n    }\\n\\n    /**\\n    * @dev Check whether an action can be performed by a sender for a particular role on this app\\n    * @param _sender Sender of the call\\n    * @param _role Role on this app\\n    * @param _params Permission params for the role\\n    * @return Boolean indicating whether the sender has the permissions to perform the action.\\n    *         Always returns false if the app hasn't been initialized yet.\\n    */\\n    function canPerform(address _sender, bytes32 _role, uint256[] _params) public view returns (bool) {\\n        if (!hasInitialized()) {\\n            return false;\\n        }\\n\\n        IKernel linkedKernel = kernel();\\n        if (address(linkedKernel) == address(0)) {\\n            return false;\\n        }\\n\\n        return linkedKernel.hasPermission(\\n            _sender,\\n            address(this),\\n            _role,\\n            ConversionHelpers.dangerouslyCastUintArrayToBytes(_params)\\n        );\\n    }\\n\\n    /**\\n    * @dev Get the recovery vault for the app\\n    * @return Recovery vault address for the app\\n    */\\n    function getRecoveryVault() public view returns (address) {\\n        // Funds recovery via a vault is only available when used with a kernel\\n        return kernel().getRecoveryVault(); // if kernel is not set, it will revert\\n    }\\n}\\n\",\"keccak256\":\"0xba456000d65bea8d9d82e9f1789086c3777df68fe364f8f397973b6d579f3a2a\"},\"@aragon/os/contracts/common/Autopetrified.sol\":{\"content\":\"/*\\n * SPDX-License-Identitifer:    MIT\\n */\\n\\npragma solidity ^0.4.24;\\n\\nimport \\\"./Petrifiable.sol\\\";\\n\\n\\ncontract Autopetrified is Petrifiable {\\n    constructor() public {\\n        // Immediately petrify base (non-proxy) instances of inherited contracts on deploy.\\n        // This renders them uninitializable (and unusable without a proxy).\\n        petrify();\\n    }\\n}\\n\",\"keccak256\":\"0x216e6ecbdcf45d90e8846ab2773072bd82180558a7dcf0c5425ed13b0188c5f3\"},\"@aragon/os/contracts/common/ConversionHelpers.sol\":{\"content\":\"pragma solidity ^0.4.24;\\n\\n\\nlibrary ConversionHelpers {\\n    string private constant ERROR_IMPROPER_LENGTH = \\\"CONVERSION_IMPROPER_LENGTH\\\";\\n\\n    function dangerouslyCastUintArrayToBytes(uint256[] memory _input) internal pure returns (bytes memory output) {\\n        // Force cast the uint256[] into a bytes array, by overwriting its length\\n        // Note that the bytes array doesn't need to be initialized as we immediately overwrite it\\n        // with the input and a new length. The input becomes invalid from this point forward.\\n        uint256 byteLength = _input.length * 32;\\n        assembly {\\n            output := _input\\n            mstore(output, byteLength)\\n        }\\n    }\\n\\n    function dangerouslyCastBytesToUintArray(bytes memory _input) internal pure returns (uint256[] memory output) {\\n        // Force cast the bytes array into a uint256[], by overwriting its length\\n        // Note that the uint256[] doesn't need to be initialized as we immediately overwrite it\\n        // with the input and a new length. The input becomes invalid from this point forward.\\n        uint256 intsLength = _input.length / 32;\\n        require(_input.length == intsLength * 32, ERROR_IMPROPER_LENGTH);\\n\\n        assembly {\\n            output := _input\\n            mstore(output, intsLength)\\n        }\\n    }\\n}\\n\",\"keccak256\":\"0x9872383d458352f5c68fa5afd1fc84ab6b172cbee33359cfa57655b8eda92416\"},\"@aragon/os/contracts/common/DepositableStorage.sol\":{\"content\":\"pragma solidity 0.4.24;\\n\\nimport \\\"./UnstructuredStorage.sol\\\";\\n\\n\\ncontract DepositableStorage {\\n    using UnstructuredStorage for bytes32;\\n\\n    // keccak256(\\\"aragonOS.depositableStorage.depositable\\\")\\n    bytes32 internal constant DEPOSITABLE_POSITION = 0x665fd576fbbe6f247aff98f5c94a561e3f71ec2d3c988d56f12d342396c50cea;\\n\\n    function isDepositable() public view returns (bool) {\\n        return DEPOSITABLE_POSITION.getStorageBool();\\n    }\\n\\n    function setDepositable(bool _depositable) internal {\\n        DEPOSITABLE_POSITION.setStorageBool(_depositable);\\n    }\\n}\\n\",\"keccak256\":\"0x67e1884ba4c91de1c6fe1fc2c1c632c29ed3e7894a434c049be9f1ed80539237\"},\"@aragon/os/contracts/common/EtherTokenConstant.sol\":{\"content\":\"/*\\n * SPDX-License-Identitifer:    MIT\\n */\\n\\npragma solidity ^0.4.24;\\n\\n\\n// aragonOS and aragon-apps rely on address(0) to denote native ETH, in\\n// contracts where both tokens and ETH are accepted\\ncontract EtherTokenConstant {\\n    address internal constant ETH = address(0);\\n}\\n\",\"keccak256\":\"0xb18d16ad5127519251d9759349bf0ce1e5cfc861a776c5297b91a625c84d0363\"},\"@aragon/os/contracts/common/IVaultRecoverable.sol\":{\"content\":\"/*\\n * SPDX-License-Identitifer:    MIT\\n */\\n\\npragma solidity ^0.4.24;\\n\\n\\ninterface IVaultRecoverable {\\n    event RecoverToVault(address indexed vault, address indexed token, uint256 amount);\\n\\n    function transferToVault(address token) external;\\n\\n    function allowRecoverability(address token) external view returns (bool);\\n    function getRecoveryVault() external view returns (address);\\n}\\n\",\"keccak256\":\"0xd7cb66ee5d01be69a6abab04583cc86755bf63c2f1fd03b519a876162f52b323\"},\"@aragon/os/contracts/common/Initializable.sol\":{\"content\":\"/*\\n * SPDX-License-Identitifer:    MIT\\n */\\n\\npragma solidity ^0.4.24;\\n\\nimport \\\"./TimeHelpers.sol\\\";\\nimport \\\"./UnstructuredStorage.sol\\\";\\n\\n\\ncontract Initializable is TimeHelpers {\\n    using UnstructuredStorage for bytes32;\\n\\n    // keccak256(\\\"aragonOS.initializable.initializationBlock\\\")\\n    bytes32 internal constant INITIALIZATION_BLOCK_POSITION = 0xebb05b386a8d34882b8711d156f463690983dc47815980fb82aeeff1aa43579e;\\n\\n    string private constant ERROR_ALREADY_INITIALIZED = \\\"INIT_ALREADY_INITIALIZED\\\";\\n    string private constant ERROR_NOT_INITIALIZED = \\\"INIT_NOT_INITIALIZED\\\";\\n\\n    modifier onlyInit {\\n        require(getInitializationBlock() == 0, ERROR_ALREADY_INITIALIZED);\\n        _;\\n    }\\n\\n    modifier isInitialized {\\n        require(hasInitialized(), ERROR_NOT_INITIALIZED);\\n        _;\\n    }\\n\\n    /**\\n    * @return Block number in which the contract was initialized\\n    */\\n    function getInitializationBlock() public view returns (uint256) {\\n        return INITIALIZATION_BLOCK_POSITION.getStorageUint256();\\n    }\\n\\n    /**\\n    * @return Whether the contract has been initialized by the time of the current block\\n    */\\n    function hasInitialized() public view returns (bool) {\\n        uint256 initializationBlock = getInitializationBlock();\\n        return initializationBlock != 0 && getBlockNumber() >= initializationBlock;\\n    }\\n\\n    /**\\n    * @dev Function to be called by top level contract after initialization has finished.\\n    */\\n    function initialized() internal onlyInit {\\n        INITIALIZATION_BLOCK_POSITION.setStorageUint256(getBlockNumber());\\n    }\\n\\n    /**\\n    * @dev Function to be called by top level contract after initialization to enable the contract\\n    *      at a future block number rather than immediately.\\n    */\\n    function initializedAt(uint256 _blockNumber) internal onlyInit {\\n        INITIALIZATION_BLOCK_POSITION.setStorageUint256(_blockNumber);\\n    }\\n}\\n\",\"keccak256\":\"0xc559fdbee1c0ee18b6f2f866c28ed6eb96859b2c88f75867ca11f25ebd00b090\"},\"@aragon/os/contracts/common/IsContract.sol\":{\"content\":\"/*\\n * SPDX-License-Identitifer:    MIT\\n */\\n\\npragma solidity ^0.4.24;\\n\\n\\ncontract IsContract {\\n    /*\\n    * NOTE: this should NEVER be used for authentication\\n    * (see pitfalls: https://github.com/fergarrui/ethereum-security/tree/master/contracts/extcodesize).\\n    *\\n    * This is only intended to be used as a sanity check that an address is actually a contract,\\n    * RATHER THAN an address not being a contract.\\n    */\\n    function isContract(address _target) internal view returns (bool) {\\n        if (_target == address(0)) {\\n            return false;\\n        }\\n\\n        uint256 size;\\n        assembly { size := extcodesize(_target) }\\n        return size > 0;\\n    }\\n}\\n\",\"keccak256\":\"0xb76e263e3532883fe32dfe4b1447eb487a570e121c5cce01cee604dd9e44a075\"},\"@aragon/os/contracts/common/Petrifiable.sol\":{\"content\":\"/*\\n * SPDX-License-Identitifer:    MIT\\n */\\n\\npragma solidity ^0.4.24;\\n\\nimport \\\"./Initializable.sol\\\";\\n\\n\\ncontract Petrifiable is Initializable {\\n    // Use block UINT256_MAX (which should be never) as the initializable date\\n    uint256 internal constant PETRIFIED_BLOCK = uint256(-1);\\n\\n    function isPetrified() public view returns (bool) {\\n        return getInitializationBlock() == PETRIFIED_BLOCK;\\n    }\\n\\n    /**\\n    * @dev Function to be called by top level contract to prevent being initialized.\\n    *      Useful for freezing base contracts when they're used behind proxies.\\n    */\\n    function petrify() internal onlyInit {\\n        initializedAt(PETRIFIED_BLOCK);\\n    }\\n}\\n\",\"keccak256\":\"0xb69f9d6de8ff6f2a084aca2e0228c9008a8776482a70bcab16f46a693ec77be6\"},\"@aragon/os/contracts/common/ReentrancyGuard.sol\":{\"content\":\"/*\\n * SPDX-License-Identitifer:    MIT\\n */\\n\\npragma solidity ^0.4.24;\\n\\nimport \\\"../common/UnstructuredStorage.sol\\\";\\n\\n\\ncontract ReentrancyGuard {\\n    using UnstructuredStorage for bytes32;\\n\\n    /* Hardcoded constants to save gas\\n    bytes32 internal constant REENTRANCY_MUTEX_POSITION = keccak256(\\\"aragonOS.reentrancyGuard.mutex\\\");\\n    */\\n    bytes32 private constant REENTRANCY_MUTEX_POSITION = 0xe855346402235fdd185c890e68d2c4ecad599b88587635ee285bce2fda58dacb;\\n\\n    string private constant ERROR_REENTRANT = \\\"REENTRANCY_REENTRANT_CALL\\\";\\n\\n    modifier nonReentrant() {\\n        // Ensure mutex is unlocked\\n        require(!REENTRANCY_MUTEX_POSITION.getStorageBool(), ERROR_REENTRANT);\\n\\n        // Lock mutex before function call\\n        REENTRANCY_MUTEX_POSITION.setStorageBool(true);\\n\\n        // Perform function call\\n        _;\\n\\n        // Unlock mutex after function call\\n        REENTRANCY_MUTEX_POSITION.setStorageBool(false);\\n    }\\n}\\n\",\"keccak256\":\"0x2b2014de57620aedded6365e742e17b9a23492d754e48dfeefa56f7e5bcf5645\"},\"@aragon/os/contracts/common/SafeERC20.sol\":{\"content\":\"// Inspired by AdEx (https://github.com/AdExNetwork/adex-protocol-eth/blob/b9df617829661a7518ee10f4cb6c4108659dd6d5/contracts/libs/SafeERC20.sol)\\n// and 0x (https://github.com/0xProject/0x-monorepo/blob/737d1dc54d72872e24abce5a1dbe1b66d35fa21a/contracts/protocol/contracts/protocol/AssetProxy/ERC20Proxy.sol#L143)\\n\\npragma solidity ^0.4.24;\\n\\nimport \\\"../lib/token/ERC20.sol\\\";\\n\\n\\nlibrary SafeERC20 {\\n    // Before 0.5, solidity has a mismatch between `address.transfer()` and `token.transfer()`:\\n    // https://github.com/ethereum/solidity/issues/3544\\n    bytes4 private constant TRANSFER_SELECTOR = 0xa9059cbb;\\n\\n    string private constant ERROR_TOKEN_BALANCE_REVERTED = \\\"SAFE_ERC_20_BALANCE_REVERTED\\\";\\n    string private constant ERROR_TOKEN_ALLOWANCE_REVERTED = \\\"SAFE_ERC_20_ALLOWANCE_REVERTED\\\";\\n\\n    function invokeAndCheckSuccess(address _addr, bytes memory _calldata)\\n        private\\n        returns (bool)\\n    {\\n        bool ret;\\n        assembly {\\n            let ptr := mload(0x40)    // free memory pointer\\n\\n            let success := call(\\n                gas,                  // forward all gas\\n                _addr,                // address\\n                0,                    // no value\\n                add(_calldata, 0x20), // calldata start\\n                mload(_calldata),     // calldata length\\n                ptr,                  // write output over free memory\\n                0x20                  // uint256 return\\n            )\\n\\n            if gt(success, 0) {\\n                // Check number of bytes returned from last function call\\n                switch returndatasize\\n\\n                // No bytes returned: assume success\\n                case 0 {\\n                    ret := 1\\n                }\\n\\n                // 32 bytes returned: check if non-zero\\n                case 0x20 {\\n                    // Only return success if returned data was true\\n                    // Already have output in ptr\\n                    ret := eq(mload(ptr), 1)\\n                }\\n\\n                // Not sure what was returned: don't mark as success\\n                default { }\\n            }\\n        }\\n        return ret;\\n    }\\n\\n    function staticInvoke(address _addr, bytes memory _calldata)\\n        private\\n        view\\n        returns (bool, uint256)\\n    {\\n        bool success;\\n        uint256 ret;\\n        assembly {\\n            let ptr := mload(0x40)    // free memory pointer\\n\\n            success := staticcall(\\n                gas,                  // forward all gas\\n                _addr,                // address\\n                add(_calldata, 0x20), // calldata start\\n                mload(_calldata),     // calldata length\\n                ptr,                  // write output over free memory\\n                0x20                  // uint256 return\\n            )\\n\\n            if gt(success, 0) {\\n                ret := mload(ptr)\\n            }\\n        }\\n        return (success, ret);\\n    }\\n\\n    /**\\n    * @dev Same as a standards-compliant ERC20.transfer() that never reverts (returns false).\\n    *      Note that this makes an external call to the token.\\n    */\\n    function safeTransfer(ERC20 _token, address _to, uint256 _amount) internal returns (bool) {\\n        bytes memory transferCallData = abi.encodeWithSelector(\\n            TRANSFER_SELECTOR,\\n            _to,\\n            _amount\\n        );\\n        return invokeAndCheckSuccess(_token, transferCallData);\\n    }\\n\\n    /**\\n    * @dev Same as a standards-compliant ERC20.transferFrom() that never reverts (returns false).\\n    *      Note that this makes an external call to the token.\\n    */\\n    function safeTransferFrom(ERC20 _token, address _from, address _to, uint256 _amount) internal returns (bool) {\\n        bytes memory transferFromCallData = abi.encodeWithSelector(\\n            _token.transferFrom.selector,\\n            _from,\\n            _to,\\n            _amount\\n        );\\n        return invokeAndCheckSuccess(_token, transferFromCallData);\\n    }\\n\\n    /**\\n    * @dev Same as a standards-compliant ERC20.approve() that never reverts (returns false).\\n    *      Note that this makes an external call to the token.\\n    */\\n    function safeApprove(ERC20 _token, address _spender, uint256 _amount) internal returns (bool) {\\n        bytes memory approveCallData = abi.encodeWithSelector(\\n            _token.approve.selector,\\n            _spender,\\n            _amount\\n        );\\n        return invokeAndCheckSuccess(_token, approveCallData);\\n    }\\n\\n    /**\\n    * @dev Static call into ERC20.balanceOf().\\n    * Reverts if the call fails for some reason (should never fail).\\n    */\\n    function staticBalanceOf(ERC20 _token, address _owner) internal view returns (uint256) {\\n        bytes memory balanceOfCallData = abi.encodeWithSelector(\\n            _token.balanceOf.selector,\\n            _owner\\n        );\\n\\n        (bool success, uint256 tokenBalance) = staticInvoke(_token, balanceOfCallData);\\n        require(success, ERROR_TOKEN_BALANCE_REVERTED);\\n\\n        return tokenBalance;\\n    }\\n\\n    /**\\n    * @dev Static call into ERC20.allowance().\\n    * Reverts if the call fails for some reason (should never fail).\\n    */\\n    function staticAllowance(ERC20 _token, address _owner, address _spender) internal view returns (uint256) {\\n        bytes memory allowanceCallData = abi.encodeWithSelector(\\n            _token.allowance.selector,\\n            _owner,\\n            _spender\\n        );\\n\\n        (bool success, uint256 allowance) = staticInvoke(_token, allowanceCallData);\\n        require(success, ERROR_TOKEN_ALLOWANCE_REVERTED);\\n\\n        return allowance;\\n    }\\n}\\n\",\"keccak256\":\"0xc0cb682f6cd36e8414a9e6b3b0aca7280f500e2acbeeaa19282d69b7f3fd7a1c\"},\"@aragon/os/contracts/common/TimeHelpers.sol\":{\"content\":\"/*\\n * SPDX-License-Identitifer:    MIT\\n */\\n\\npragma solidity ^0.4.24;\\n\\nimport \\\"./Uint256Helpers.sol\\\";\\n\\n\\ncontract TimeHelpers {\\n    using Uint256Helpers for uint256;\\n\\n    /**\\n    * @dev Returns the current block number.\\n    *      Using a function rather than `block.number` allows us to easily mock the block number in\\n    *      tests.\\n    */\\n    function getBlockNumber() internal view returns (uint256) {\\n        return block.number;\\n    }\\n\\n    /**\\n    * @dev Returns the current block number, converted to uint64.\\n    *      Using a function rather than `block.number` allows us to easily mock the block number in\\n    *      tests.\\n    */\\n    function getBlockNumber64() internal view returns (uint64) {\\n        return getBlockNumber().toUint64();\\n    }\\n\\n    /**\\n    * @dev Returns the current timestamp.\\n    *      Using a function rather than `block.timestamp` allows us to easily mock it in\\n    *      tests.\\n    */\\n    function getTimestamp() internal view returns (uint256) {\\n        return block.timestamp; // solium-disable-line security/no-block-members\\n    }\\n\\n    /**\\n    * @dev Returns the current timestamp, converted to uint64.\\n    *      Using a function rather than `block.timestamp` allows us to easily mock it in\\n    *      tests.\\n    */\\n    function getTimestamp64() internal view returns (uint64) {\\n        return getTimestamp().toUint64();\\n    }\\n}\\n\",\"keccak256\":\"0x95b785dc4319f6ce5255c9adf5e68a469a0f837f7b02e01b6bc974b4921d4024\"},\"@aragon/os/contracts/common/Uint256Helpers.sol\":{\"content\":\"pragma solidity ^0.4.24;\\n\\n\\nlibrary Uint256Helpers {\\n    uint256 private constant MAX_UINT64 = uint64(-1);\\n\\n    string private constant ERROR_NUMBER_TOO_BIG = \\\"UINT64_NUMBER_TOO_BIG\\\";\\n\\n    function toUint64(uint256 a) internal pure returns (uint64) {\\n        require(a <= MAX_UINT64, ERROR_NUMBER_TOO_BIG);\\n        return uint64(a);\\n    }\\n}\\n\",\"keccak256\":\"0x83033025a3f4402be3b7bcc9a23ce96ae4fadc7f251da8f139d73a13a3400b0c\"},\"@aragon/os/contracts/common/UnstructuredStorage.sol\":{\"content\":\"/*\\n * SPDX-License-Identitifer:    MIT\\n */\\n\\npragma solidity ^0.4.24;\\n\\n\\nlibrary UnstructuredStorage {\\n    function getStorageBool(bytes32 position) internal view returns (bool data) {\\n        assembly { data := sload(position) }\\n    }\\n\\n    function getStorageAddress(bytes32 position) internal view returns (address data) {\\n        assembly { data := sload(position) }\\n    }\\n\\n    function getStorageBytes32(bytes32 position) internal view returns (bytes32 data) {\\n        assembly { data := sload(position) }\\n    }\\n\\n    function getStorageUint256(bytes32 position) internal view returns (uint256 data) {\\n        assembly { data := sload(position) }\\n    }\\n\\n    function setStorageBool(bytes32 position, bool data) internal {\\n        assembly { sstore(position, data) }\\n    }\\n\\n    function setStorageAddress(bytes32 position, address data) internal {\\n        assembly { sstore(position, data) }\\n    }\\n\\n    function setStorageBytes32(bytes32 position, bytes32 data) internal {\\n        assembly { sstore(position, data) }\\n    }\\n\\n    function setStorageUint256(bytes32 position, uint256 data) internal {\\n        assembly { sstore(position, data) }\\n    }\\n}\\n\",\"keccak256\":\"0xe0d627fc7a7716409389f34cfe49366ba7871309d3a73262ec9608ef73e47591\"},\"@aragon/os/contracts/common/VaultRecoverable.sol\":{\"content\":\"/*\\n * SPDX-License-Identitifer:    MIT\\n */\\n\\npragma solidity ^0.4.24;\\n\\nimport \\\"../lib/token/ERC20.sol\\\";\\nimport \\\"./EtherTokenConstant.sol\\\";\\nimport \\\"./IsContract.sol\\\";\\nimport \\\"./IVaultRecoverable.sol\\\";\\nimport \\\"./SafeERC20.sol\\\";\\n\\n\\ncontract VaultRecoverable is IVaultRecoverable, EtherTokenConstant, IsContract {\\n    using SafeERC20 for ERC20;\\n\\n    string private constant ERROR_DISALLOWED = \\\"RECOVER_DISALLOWED\\\";\\n    string private constant ERROR_VAULT_NOT_CONTRACT = \\\"RECOVER_VAULT_NOT_CONTRACT\\\";\\n    string private constant ERROR_TOKEN_TRANSFER_FAILED = \\\"RECOVER_TOKEN_TRANSFER_FAILED\\\";\\n\\n    /**\\n     * @notice Send funds to recovery Vault. This contract should never receive funds,\\n     *         but in case it does, this function allows one to recover them.\\n     * @param _token Token balance to be sent to recovery vault.\\n     */\\n    function transferToVault(address _token) external {\\n        require(allowRecoverability(_token), ERROR_DISALLOWED);\\n        address vault = getRecoveryVault();\\n        require(isContract(vault), ERROR_VAULT_NOT_CONTRACT);\\n\\n        uint256 balance;\\n        if (_token == ETH) {\\n            balance = address(this).balance;\\n            vault.transfer(balance);\\n        } else {\\n            ERC20 token = ERC20(_token);\\n            balance = token.staticBalanceOf(this);\\n            require(token.safeTransfer(vault, balance), ERROR_TOKEN_TRANSFER_FAILED);\\n        }\\n\\n        emit RecoverToVault(vault, _token, balance);\\n    }\\n\\n    /**\\n    * @dev By default deriving from AragonApp makes it recoverable\\n    * @param token Token address that would be recovered\\n    * @return bool whether the app allows the recovery\\n    */\\n    function allowRecoverability(address token) public view returns (bool) {\\n        return true;\\n    }\\n\\n    // Cast non-implemented interface to be public so we can use it internally\\n    function getRecoveryVault() public view returns (address);\\n}\\n\",\"keccak256\":\"0x4f4de2c27ea7df731ad7d9babc37965a805282fed16b422f46a35d9d2ef931a1\"},\"@aragon/os/contracts/evmscript/EVMScriptRunner.sol\":{\"content\":\"/*\\n * SPDX-License-Identitifer:    MIT\\n */\\n\\npragma solidity ^0.4.24;\\n\\nimport \\\"./IEVMScriptExecutor.sol\\\";\\nimport \\\"./IEVMScriptRegistry.sol\\\";\\n\\nimport \\\"../apps/AppStorage.sol\\\";\\nimport \\\"../kernel/KernelConstants.sol\\\";\\nimport \\\"../common/Initializable.sol\\\";\\n\\n\\ncontract EVMScriptRunner is AppStorage, Initializable, EVMScriptRegistryConstants, KernelNamespaceConstants {\\n    string private constant ERROR_EXECUTOR_UNAVAILABLE = \\\"EVMRUN_EXECUTOR_UNAVAILABLE\\\";\\n    string private constant ERROR_PROTECTED_STATE_MODIFIED = \\\"EVMRUN_PROTECTED_STATE_MODIFIED\\\";\\n\\n    /* This is manually crafted in assembly\\n    string private constant ERROR_EXECUTOR_INVALID_RETURN = \\\"EVMRUN_EXECUTOR_INVALID_RETURN\\\";\\n    */\\n\\n    event ScriptResult(address indexed executor, bytes script, bytes input, bytes returnData);\\n\\n    function getEVMScriptExecutor(bytes _script) public view returns (IEVMScriptExecutor) {\\n        return IEVMScriptExecutor(getEVMScriptRegistry().getScriptExecutor(_script));\\n    }\\n\\n    function getEVMScriptRegistry() public view returns (IEVMScriptRegistry) {\\n        address registryAddr = kernel().getApp(KERNEL_APP_ADDR_NAMESPACE, EVMSCRIPT_REGISTRY_APP_ID);\\n        return IEVMScriptRegistry(registryAddr);\\n    }\\n\\n    function runScript(bytes _script, bytes _input, address[] _blacklist)\\n        internal\\n        isInitialized\\n        protectState\\n        returns (bytes)\\n    {\\n        IEVMScriptExecutor executor = getEVMScriptExecutor(_script);\\n        require(address(executor) != address(0), ERROR_EXECUTOR_UNAVAILABLE);\\n\\n        bytes4 sig = executor.execScript.selector;\\n        bytes memory data = abi.encodeWithSelector(sig, _script, _input, _blacklist);\\n\\n        bytes memory output;\\n        assembly {\\n            let success := delegatecall(\\n                gas,                // forward all gas\\n                executor,           // address\\n                add(data, 0x20),    // calldata start\\n                mload(data),        // calldata length\\n                0,                  // don't write output (we'll handle this ourselves)\\n                0                   // don't write output\\n            )\\n\\n            output := mload(0x40) // free mem ptr get\\n\\n            switch success\\n            case 0 {\\n                // If the call errored, forward its full error data\\n                returndatacopy(output, 0, returndatasize)\\n                revert(output, returndatasize)\\n            }\\n            default {\\n                switch gt(returndatasize, 0x3f)\\n                case 0 {\\n                    // Need at least 0x40 bytes returned for properly ABI-encoded bytes values,\\n                    // revert with \\\"EVMRUN_EXECUTOR_INVALID_RETURN\\\"\\n                    // See remix: doing a `revert(\\\"EVMRUN_EXECUTOR_INVALID_RETURN\\\")` always results in\\n                    // this memory layout\\n                    mstore(output, 0x08c379a000000000000000000000000000000000000000000000000000000000)         // error identifier\\n                    mstore(add(output, 0x04), 0x0000000000000000000000000000000000000000000000000000000000000020) // starting offset\\n                    mstore(add(output, 0x24), 0x000000000000000000000000000000000000000000000000000000000000001e) // reason length\\n                    mstore(add(output, 0x44), 0x45564d52554e5f4558454355544f525f494e56414c49445f52455455524e0000) // reason\\n\\n                    revert(output, 100) // 100 = 4 + 3 * 32 (error identifier + 3 words for the ABI encoded error)\\n                }\\n                default {\\n                    // Copy result\\n                    //\\n                    // Needs to perform an ABI decode for the expected `bytes` return type of\\n                    // `executor.execScript()` as solidity will automatically ABI encode the returned bytes as:\\n                    //    [ position of the first dynamic length return value = 0x20 (32 bytes) ]\\n                    //    [ output length (32 bytes) ]\\n                    //    [ output content (N bytes) ]\\n                    //\\n                    // Perform the ABI decode by ignoring the first 32 bytes of the return data\\n                    let copysize := sub(returndatasize, 0x20)\\n                    returndatacopy(output, 0x20, copysize)\\n\\n                    mstore(0x40, add(output, copysize)) // free mem ptr set\\n                }\\n            }\\n        }\\n\\n        emit ScriptResult(address(executor), _script, _input, output);\\n\\n        return output;\\n    }\\n\\n    modifier protectState {\\n        address preKernel = address(kernel());\\n        bytes32 preAppId = appId();\\n        _; // exec\\n        require(address(kernel()) == preKernel, ERROR_PROTECTED_STATE_MODIFIED);\\n        require(appId() == preAppId, ERROR_PROTECTED_STATE_MODIFIED);\\n    }\\n}\\n\",\"keccak256\":\"0xcb6b5f7d2610321882cdc86819f1a51341c33b510fff7c60936ac7d7a015d7be\"},\"@aragon/os/contracts/evmscript/IEVMScriptExecutor.sol\":{\"content\":\"/*\\n * SPDX-License-Identitifer:    MIT\\n */\\n\\npragma solidity ^0.4.24;\\n\\n\\ninterface IEVMScriptExecutor {\\n    function execScript(bytes script, bytes input, address[] blacklist) external returns (bytes);\\n    function executorType() external pure returns (bytes32);\\n}\\n\",\"keccak256\":\"0x9cab64cd2f10148d4e20433ecd11679e69be1fbde112892c48db94f92e48c571\"},\"@aragon/os/contracts/evmscript/IEVMScriptRegistry.sol\":{\"content\":\"/*\\n * SPDX-License-Identitifer:    MIT\\n */\\n\\npragma solidity ^0.4.24;\\n\\nimport \\\"./IEVMScriptExecutor.sol\\\";\\n\\n\\ncontract EVMScriptRegistryConstants {\\n    /* Hardcoded constants to save gas\\n    bytes32 internal constant EVMSCRIPT_REGISTRY_APP_ID = apmNamehash(\\\"evmreg\\\");\\n    */\\n    bytes32 internal constant EVMSCRIPT_REGISTRY_APP_ID = 0xddbcfd564f642ab5627cf68b9b7d374fb4f8a36e941a75d89c87998cef03bd61;\\n}\\n\\n\\ninterface IEVMScriptRegistry {\\n    function addScriptExecutor(IEVMScriptExecutor executor) external returns (uint id);\\n    function disableScriptExecutor(uint256 executorId) external;\\n\\n    // TODO: this should be external\\n    // See https://github.com/ethereum/solidity/issues/4832\\n    function getScriptExecutor(bytes script) public view returns (IEVMScriptExecutor);\\n}\\n\",\"keccak256\":\"0x00d98507ec160cb7cc814cc9bdebd01a414353636d6045720fe6d1592277694b\"},\"@aragon/os/contracts/kernel/IKernel.sol\":{\"content\":\"/*\\n * SPDX-License-Identitifer:    MIT\\n */\\n\\npragma solidity ^0.4.24;\\n\\nimport \\\"../acl/IACL.sol\\\";\\nimport \\\"../common/IVaultRecoverable.sol\\\";\\n\\n\\ninterface IKernelEvents {\\n    event SetApp(bytes32 indexed namespace, bytes32 indexed appId, address app);\\n}\\n\\n\\n// This should be an interface, but interfaces can't inherit yet :(\\ncontract IKernel is IKernelEvents, IVaultRecoverable {\\n    function acl() public view returns (IACL);\\n    function hasPermission(address who, address where, bytes32 what, bytes how) public view returns (bool);\\n\\n    function setApp(bytes32 namespace, bytes32 appId, address app) public;\\n    function getApp(bytes32 namespace, bytes32 appId) public view returns (address);\\n}\\n\",\"keccak256\":\"0xd02b98282ccd271b0caa86f2c249986f1619dcf41811f5dadce520b32610b68e\"},\"@aragon/os/contracts/kernel/KernelConstants.sol\":{\"content\":\"/*\\n * SPDX-License-Identitifer:    MIT\\n */\\n\\npragma solidity ^0.4.24;\\n\\n\\ncontract KernelAppIds {\\n    /* Hardcoded constants to save gas\\n    bytes32 internal constant KERNEL_CORE_APP_ID = apmNamehash(\\\"kernel\\\");\\n    bytes32 internal constant KERNEL_DEFAULT_ACL_APP_ID = apmNamehash(\\\"acl\\\");\\n    bytes32 internal constant KERNEL_DEFAULT_VAULT_APP_ID = apmNamehash(\\\"vault\\\");\\n    */\\n    bytes32 internal constant KERNEL_CORE_APP_ID = 0x3b4bf6bf3ad5000ecf0f989d5befde585c6860fea3e574a4fab4c49d1c177d9c;\\n    bytes32 internal constant KERNEL_DEFAULT_ACL_APP_ID = 0xe3262375f45a6e2026b7e7b18c2b807434f2508fe1a2a3dfb493c7df8f4aad6a;\\n    bytes32 internal constant KERNEL_DEFAULT_VAULT_APP_ID = 0x7e852e0fcfce6551c13800f1e7476f982525c2b5277ba14b24339c68416336d1;\\n}\\n\\n\\ncontract KernelNamespaceConstants {\\n    /* Hardcoded constants to save gas\\n    bytes32 internal constant KERNEL_CORE_NAMESPACE = keccak256(\\\"core\\\");\\n    bytes32 internal constant KERNEL_APP_BASES_NAMESPACE = keccak256(\\\"base\\\");\\n    bytes32 internal constant KERNEL_APP_ADDR_NAMESPACE = keccak256(\\\"app\\\");\\n    */\\n    bytes32 internal constant KERNEL_CORE_NAMESPACE = 0xc681a85306374a5ab27f0bbc385296a54bcd314a1948b6cf61c4ea1bc44bb9f8;\\n    bytes32 internal constant KERNEL_APP_BASES_NAMESPACE = 0xf1f3eb40f5bc1ad1344716ced8b8a0431d840b5783aea1fd01786bc26f35ac0f;\\n    bytes32 internal constant KERNEL_APP_ADDR_NAMESPACE = 0xd6f028ca0e8edb4a8c9757ca4fdccab25fa1e0317da1188108f7d2dee14902fb;\\n}\\n\",\"keccak256\":\"0x95e46be2becfb4c8952880909cd32adf5dcfa8c2e0fdf4ae054bbf83ef7f53cd\"},\"@aragon/os/contracts/lib/math/SafeMath.sol\":{\"content\":\"// See https://github.com/OpenZeppelin/openzeppelin-solidity/blob/d51e38758e1d985661534534d5c61e27bece5042/contracts/math/SafeMath.sol\\n// Adapted to use pragma ^0.4.24 and satisfy our linter rules\\n\\npragma solidity ^0.4.24;\\n\\n\\n/**\\n * @title SafeMath\\n * @dev Math operations with safety checks that revert on error\\n */\\nlibrary SafeMath {\\n    string private constant ERROR_ADD_OVERFLOW = \\\"MATH_ADD_OVERFLOW\\\";\\n    string private constant ERROR_SUB_UNDERFLOW = \\\"MATH_SUB_UNDERFLOW\\\";\\n    string private constant ERROR_MUL_OVERFLOW = \\\"MATH_MUL_OVERFLOW\\\";\\n    string private constant ERROR_DIV_ZERO = \\\"MATH_DIV_ZERO\\\";\\n\\n    /**\\n    * @dev Multiplies two numbers, reverts on overflow.\\n    */\\n    function mul(uint256 _a, uint256 _b) internal pure returns (uint256) {\\n        // Gas optimization: this is cheaper than requiring 'a' not being zero, but the\\n        // benefit is lost if 'b' is also tested.\\n        // See: https://github.com/OpenZeppelin/openzeppelin-solidity/pull/522\\n        if (_a == 0) {\\n            return 0;\\n        }\\n\\n        uint256 c = _a * _b;\\n        require(c / _a == _b, ERROR_MUL_OVERFLOW);\\n\\n        return c;\\n    }\\n\\n    /**\\n    * @dev Integer division of two numbers truncating the quotient, reverts on division by zero.\\n    */\\n    function div(uint256 _a, uint256 _b) internal pure returns (uint256) {\\n        require(_b > 0, ERROR_DIV_ZERO); // Solidity only automatically asserts when dividing by 0\\n        uint256 c = _a / _b;\\n        // assert(_a == _b * c + _a % _b); // There is no case in which this doesn't hold\\n\\n        return c;\\n    }\\n\\n    /**\\n    * @dev Subtracts two numbers, reverts on overflow (i.e. if subtrahend is greater than minuend).\\n    */\\n    function sub(uint256 _a, uint256 _b) internal pure returns (uint256) {\\n        require(_b <= _a, ERROR_SUB_UNDERFLOW);\\n        uint256 c = _a - _b;\\n\\n        return c;\\n    }\\n\\n    /**\\n    * @dev Adds two numbers, reverts on overflow.\\n    */\\n    function add(uint256 _a, uint256 _b) internal pure returns (uint256) {\\n        uint256 c = _a + _b;\\n        require(c >= _a, ERROR_ADD_OVERFLOW);\\n\\n        return c;\\n    }\\n\\n    /**\\n    * @dev Divides two numbers and returns the remainder (unsigned integer modulo),\\n    * reverts when dividing by zero.\\n    */\\n    function mod(uint256 a, uint256 b) internal pure returns (uint256) {\\n        require(b != 0, ERROR_DIV_ZERO);\\n        return a % b;\\n    }\\n}\\n\",\"keccak256\":\"0x2e11c8dcead82c452ef452f4dbced40e20ae105fa4145d920dac6e077b31d846\"},\"@aragon/os/contracts/lib/token/ERC20.sol\":{\"content\":\"// See https://github.com/OpenZeppelin/openzeppelin-solidity/blob/a9f910d34f0ab33a1ae5e714f69f9596a02b4d91/contracts/token/ERC20/ERC20.sol\\n\\npragma solidity ^0.4.24;\\n\\n\\n/**\\n * @title ERC20 interface\\n * @dev see https://github.com/ethereum/EIPs/issues/20\\n */\\ncontract ERC20 {\\n    function totalSupply() public view returns (uint256);\\n\\n    function balanceOf(address _who) public view returns (uint256);\\n\\n    function allowance(address _owner, address _spender)\\n        public view returns (uint256);\\n\\n    function transfer(address _to, uint256 _value) public returns (bool);\\n\\n    function approve(address _spender, uint256 _value)\\n        public returns (bool);\\n\\n    function transferFrom(address _from, address _to, uint256 _value)\\n        public returns (bool);\\n\\n    event Transfer(\\n        address indexed from,\\n        address indexed to,\\n        uint256 value\\n    );\\n\\n    event Approval(\\n        address indexed owner,\\n        address indexed spender,\\n        uint256 value\\n    );\\n}\\n\",\"keccak256\":\"0xa2e319fde92f9e70912f09bf6e99bbf8b9b798961d54ffcba59d347d37bde1b7\"},\"contracts/Tap.sol\":{\"content\":\"pragma solidity 0.4.24;\\n\\nimport \\\"@aragon/os/contracts/apps/AragonApp.sol\\\";\\nimport \\\"@aragon/os/contracts/common/EtherTokenConstant.sol\\\";\\nimport \\\"@aragon/os/contracts/common/IsContract.sol\\\";\\nimport \\\"@aragon/os/contracts/common/TimeHelpers.sol\\\";\\nimport \\\"@aragon/os/contracts/common/SafeERC20.sol\\\";\\nimport \\\"@aragon/os/contracts/lib/math/SafeMath.sol\\\";\\nimport \\\"@aragon/os/contracts/lib/token/ERC20.sol\\\";\\nimport \\\"@aragon/apps-vault/contracts/Vault.sol\\\";\\nimport \\\"@ablack/fundraising-shared-interfaces/contracts/ITap.sol\\\";\\nimport \\\"@ablack/fundraising-shared-interfaces/contracts/IAragonFundraisingController.sol\\\";\\n\\n\\ncontract Tap is ITap, TimeHelpers, EtherTokenConstant, IsContract, AragonApp {\\n    using SafeERC20 for ERC20;\\n    using SafeMath  for uint256;\\n\\n    /**\\n    Hardcoded constants to save gas\\n    bytes32 public constant UPDATE_CONTROLLER_ROLE                     = keccak256(\\\"UPDATE_CONTROLLER_ROLE\\\");\\n    bytes32 public constant UPDATE_RESERVE_ROLE                        = keccak256(\\\"UPDATE_RESERVE_ROLE\\\");\\n    bytes32 public constant UPDATE_BENEFICIARY_ROLE                    = keccak256(\\\"UPDATE_BENEFICIARY_ROLE\\\");\\n    bytes32 public constant UPDATE_MAXIMUM_TAP_RATE_INCREASE_PCT_ROLE  = keccak256(\\\"UPDATE_MAXIMUM_TAP_RATE_INCREASE_PCT_ROLE\\\");\\n    bytes32 public constant UPDATE_MAXIMUM_TAP_FLOOR_DECREASE_PCT_ROLE = keccak256(\\\"UPDATE_MAXIMUM_TAP_FLOOR_DECREASE_PCT_ROLE\\\");\\n    bytes32 public constant ADD_TAPPED_TOKEN_ROLE                      = keccak256(\\\"ADD_TAPPED_TOKEN_ROLE\\\");\\n    bytes32 public constant REMOVE_TAPPED_TOKEN_ROLE                   = keccak256(\\\"REMOVE_TAPPED_TOKEN_ROLE\\\");\\n    bytes32 public constant UPDATE_TAPPED_TOKEN_ROLE                   = keccak256(\\\"UPDATE_TAPPED_TOKEN_ROLE\\\");\\n    bytes32 public constant RESET_TAPPED_TOKEN_ROLE                    = keccak256(\\\"RESET_TAPPED_TOKEN_ROLE\\\");\\n    bytes32 public constant WITHDRAW_ROLE                              = keccak256(\\\"WITHDRAW_ROLE\\\");\\n    */\\n    bytes32 public constant UPDATE_CONTROLLER_ROLE                     = 0x454b5d0dbb74f012faf1d3722ea441689f97dc957dd3ca5335b4969586e5dc30;\\n    bytes32 public constant UPDATE_RESERVE_ROLE                        = 0x7984c050833e1db850f5aa7476710412fd2983fcec34da049502835ad7aed4f7;\\n    bytes32 public constant UPDATE_BENEFICIARY_ROLE                    = 0xf7ea2b80c7b6a2cab2c11d2290cb005c3748397358a25e17113658c83b732593;\\n    bytes32 public constant UPDATE_MAXIMUM_TAP_RATE_INCREASE_PCT_ROLE  = 0x5d94de7e429250eee4ff97e30ab9f383bea3cd564d6780e0a9e965b1add1d207;\\n    bytes32 public constant UPDATE_MAXIMUM_TAP_FLOOR_DECREASE_PCT_ROLE = 0x57c9c67896cf0a4ffe92cbea66c2f7c34380af06bf14215dabb078cf8a6d99e1;\\n    bytes32 public constant ADD_TAPPED_TOKEN_ROLE                      = 0x5bc3b608e6be93b75a1c472a4a5bea3d31eabae46bf968e4bc4c7701562114dc;\\n    bytes32 public constant REMOVE_TAPPED_TOKEN_ROLE                   = 0xd76960be78bfedc5b40ce4fa64a2f8308f39dd2cbb1f9676dbc4ce87b817befd;\\n    bytes32 public constant UPDATE_TAPPED_TOKEN_ROLE                   = 0x83201394534c53ae0b4696fd49a933082d3e0525aa5a3d0a14a2f51e12213288;\\n    bytes32 public constant RESET_TAPPED_TOKEN_ROLE                    = 0x294bf52c518669359157a9fe826e510dfc3dbd200d44bf77ec9536bff34bc29e;\\n    bytes32 public constant WITHDRAW_ROLE                              = 0x5d8e12c39142ff96d79d04d15d1ba1269e4fe57bb9d26f43523628b34ba108ec;\\n\\n    uint256 public constant PCT_BASE = 10 ** 18; // 0% = 0; 1% = 10 ** 16; 100% = 10 ** 18\\n\\n    string private constant ERROR_CONTRACT_IS_EOA            = \\\"TAP_CONTRACT_IS_EOA\\\";\\n    string private constant ERROR_INVALID_BENEFICIARY        = \\\"TAP_INVALID_BENEFICIARY\\\";\\n    string private constant ERROR_INVALID_BATCH_BLOCKS       = \\\"TAP_INVALID_BATCH_BLOCKS\\\";\\n    string private constant ERROR_INVALID_FLOOR_DECREASE_PCT = \\\"TAP_INVALID_FLOOR_DECREASE_PCT\\\";\\n    string private constant ERROR_INVALID_TOKEN              = \\\"TAP_INVALID_TOKEN\\\";\\n    string private constant ERROR_INVALID_TAP_RATE           = \\\"TAP_INVALID_TAP_RATE\\\";\\n    string private constant ERROR_INVALID_TAP_UPDATE         = \\\"TAP_INVALID_TAP_UPDATE\\\";\\n    string private constant ERROR_TOKEN_ALREADY_TAPPED       = \\\"TAP_TOKEN_ALREADY_TAPPED\\\";\\n    string private constant ERROR_TOKEN_NOT_TAPPED           = \\\"TAP_TOKEN_NOT_TAPPED\\\";\\n    string private constant ERROR_WITHDRAWAL_AMOUNT_ZERO     = \\\"TAP_WITHDRAWAL_AMOUNT_ZERO\\\";\\n\\n    IAragonFundraisingController public controller;\\n    Vault                        public reserve;\\n    address                      public beneficiary;\\n    uint256                      public batchBlocks;\\n    uint256                      public maximumTapRateIncreasePct;\\n    uint256                      public maximumTapFloorDecreasePct;\\n\\n    mapping (address => uint256) public tappedAmounts;\\n    mapping (address => uint256) public rates;\\n    mapping (address => uint256) public floors;\\n    mapping (address => uint256) public lastTappedAmountUpdates; // batch ids [block numbers]\\n    mapping (address => uint256) public lastTapUpdates;  // timestamps\\n\\n    event UpdateBeneficiary               (address indexed beneficiary);\\n    event UpdateMaximumTapRateIncreasePct (uint256 maximumTapRateIncreasePct);\\n    event UpdateMaximumTapFloorDecreasePct(uint256 maximumTapFloorDecreasePct);\\n    event AddTappedToken                  (address indexed token, uint256 rate, uint256 floor);\\n    event RemoveTappedToken               (address indexed token);\\n    event UpdateTappedToken               (address indexed token, uint256 rate, uint256 floor);\\n    event ResetTappedToken                (address indexed token);\\n    event UpdateTappedAmount              (address indexed token, uint256 tappedAmount);\\n    event Withdraw                        (address indexed token, uint256 amount);\\n\\n\\n    /***** external functions *****/\\n\\n    /**\\n     * @notice Initialize tap\\n     * @param _controller                 The address of the controller contract\\n     * @param _reserve                    The address of the reserve [pool] contract\\n     * @param _beneficiary                The address of the beneficiary [to whom funds are to be withdrawn]\\n     * @param _batchBlocks                The number of blocks batches are to last\\n     * @param _maximumTapRateIncreasePct  The maximum tap rate increase percentage allowed [in PCT_BASE]\\n     * @param _maximumTapFloorDecreasePct The maximum tap floor decrease percentage allowed [in PCT_BASE]\\n    */\\n    function initialize(\\n        IAragonFundraisingController _controller,\\n        Vault                        _reserve,\\n        address                      _beneficiary,\\n        uint256                      _batchBlocks,\\n        uint256                      _maximumTapRateIncreasePct,\\n        uint256                      _maximumTapFloorDecreasePct\\n    )\\n        external\\n        onlyInit\\n    {\\n        require(isContract(_controller),                                         ERROR_CONTRACT_IS_EOA);\\n        require(isContract(_reserve),                                            ERROR_CONTRACT_IS_EOA);\\n        require(_beneficiaryIsValid(_beneficiary),                               ERROR_INVALID_BENEFICIARY);\\n        require(_batchBlocks != 0,                                               ERROR_INVALID_BATCH_BLOCKS);\\n        require(_maximumTapFloorDecreasePctIsValid(_maximumTapFloorDecreasePct), ERROR_INVALID_FLOOR_DECREASE_PCT);\\n\\n        initialized();\\n\\n        controller = _controller;\\n        reserve = _reserve;\\n        beneficiary = _beneficiary;\\n        batchBlocks = _batchBlocks;\\n        maximumTapRateIncreasePct = _maximumTapRateIncreasePct;\\n        maximumTapFloorDecreasePct = _maximumTapFloorDecreasePct;\\n    }\\n\\n    /**\\n     * @notice Update beneficiary to `_beneficiary`\\n     * @param _beneficiary The address of the new beneficiary [to whom funds are to be withdrawn]\\n    */\\n    function updateBeneficiary(address _beneficiary) external auth(UPDATE_BENEFICIARY_ROLE) {\\n        require(_beneficiaryIsValid(_beneficiary), ERROR_INVALID_BENEFICIARY);\\n\\n        _updateBeneficiary(_beneficiary);\\n    }\\n\\n    /**\\n     * @notice Update maximum tap rate increase percentage to `@formatPct(_maximumTapRateIncreasePct)`%\\n     * @param _maximumTapRateIncreasePct The new maximum tap rate increase percentage to be allowed [in PCT_BASE]\\n    */\\n    function updateMaximumTapRateIncreasePct(uint256 _maximumTapRateIncreasePct) external auth(UPDATE_MAXIMUM_TAP_RATE_INCREASE_PCT_ROLE) {\\n        _updateMaximumTapRateIncreasePct(_maximumTapRateIncreasePct);\\n    }\\n\\n    /**\\n     * @notice Update maximum tap floor decrease percentage to `@formatPct(_maximumTapFloorDecreasePct)`%\\n     * @param _maximumTapFloorDecreasePct The new maximum tap floor decrease percentage to be allowed [in PCT_BASE]\\n    */\\n    function updateMaximumTapFloorDecreasePct(uint256 _maximumTapFloorDecreasePct) external auth(UPDATE_MAXIMUM_TAP_FLOOR_DECREASE_PCT_ROLE) {\\n        require(_maximumTapFloorDecreasePctIsValid(_maximumTapFloorDecreasePct), ERROR_INVALID_FLOOR_DECREASE_PCT);\\n\\n        _updateMaximumTapFloorDecreasePct(_maximumTapFloorDecreasePct);\\n    }\\n\\n    /**\\n     * @notice Add tap for `_token.symbol(): string` with a rate of `@tokenAmount(_token, _rate)` per block and a floor of `@tokenAmount(_token, _floor)`\\n     * @param _token The address of the token to be tapped\\n     * @param _rate  The rate at which that token is to be tapped [in wei / block]\\n     * @param _floor The floor above which the reserve [pool] balance for that token is to be kept [in wei]\\n    */\\n    function addTappedToken(address _token, uint256 _rate, uint256 _floor) external auth(ADD_TAPPED_TOKEN_ROLE) {\\n        require(_tokenIsContractOrETH(_token), ERROR_INVALID_TOKEN);\\n        require(!_tokenIsTapped(_token),       ERROR_TOKEN_ALREADY_TAPPED);\\n        require(_tapRateIsValid(_rate),        ERROR_INVALID_TAP_RATE);\\n\\n        _addTappedToken(_token, _rate, _floor);\\n    }\\n\\n    /**\\n     * @notice Remove tap for `_token.symbol(): string`\\n     * @param _token The address of the token to be un-tapped\\n    */\\n    function removeTappedToken(address _token) external auth(REMOVE_TAPPED_TOKEN_ROLE) {\\n        require(_tokenIsTapped(_token), ERROR_TOKEN_NOT_TAPPED);\\n\\n        _removeTappedToken(_token);\\n    }\\n\\n    /**\\n     * @notice Update tap for `_token.symbol(): string` with a rate of `@tokenAmount(_token, _rate)` per block and a floor of `@tokenAmount(_token, _floor)`\\n     * @param _token The address of the token whose tap is to be updated\\n     * @param _rate  The new rate at which that token is to be tapped [in wei / block]\\n     * @param _floor The new floor above which the reserve [pool] balance for that token is to be kept [in wei]\\n    */\\n    function updateTappedToken(address _token, uint256 _rate, uint256 _floor) external auth(UPDATE_TAPPED_TOKEN_ROLE) {\\n        require(_tokenIsTapped(_token),                   ERROR_TOKEN_NOT_TAPPED);\\n        require(_tapRateIsValid(_rate),                   ERROR_INVALID_TAP_RATE);\\n        require(_tapUpdateIsValid(_token, _rate, _floor), ERROR_INVALID_TAP_UPDATE);\\n\\n        _updateTappedToken(_token, _rate, _floor);\\n    }\\n\\n    /**\\n     * @notice Reset tap timestamps for `_token.symbol(): string`\\n     * @param _token The address of the token whose tap timestamps are to be reset\\n    */\\n    function resetTappedToken(address _token) external auth(RESET_TAPPED_TOKEN_ROLE) {\\n        require(_tokenIsTapped(_token), ERROR_TOKEN_NOT_TAPPED);\\n\\n        _resetTappedToken(_token);\\n    }\\n\\n    /**\\n     * @notice Update tapped amount for `_token.symbol(): string`\\n     * @param _token The address of the token whose tapped amount is to be updated\\n    */\\n    function updateTappedAmount(address _token) external {\\n        require(_tokenIsTapped(_token), ERROR_TOKEN_NOT_TAPPED);\\n\\n        _updateTappedAmount(_token);\\n    }\\n\\n    /**\\n     * @notice Transfer about `@tokenAmount(_token, self.getMaximalWithdrawal(_token): uint256)` from `self.reserve()` to `self.beneficiary()`\\n     * @param _token The address of the token to be transfered\\n    */\\n    function withdraw(address _token) external auth(WITHDRAW_ROLE) {\\n        require(_tokenIsTapped(_token), ERROR_TOKEN_NOT_TAPPED);\\n        uint256 amount = _updateTappedAmount(_token);\\n        require(amount > 0, ERROR_WITHDRAWAL_AMOUNT_ZERO);\\n\\n        _withdraw(_token, amount);\\n    }\\n\\n    /***** public view functions *****/\\n\\n    function getMaximumWithdrawal(address _token) public view isInitialized returns (uint256) {\\n        return _tappedAmount(_token);\\n    }\\n\\n    function rates(address _token) public view isInitialized returns (uint256) {\\n        return rates[_token];\\n    }\\n\\n    /***** internal functions *****/\\n\\n    /* computation functions */\\n\\n    function _currentBatchId() internal view returns (uint256) {\\n        return (block.number.div(batchBlocks)).mul(batchBlocks);\\n    }\\n\\n    function _tappedAmount(address _token) internal view returns (uint256) {\\n        uint256 toBeKept = controller.collateralsToBeClaimed(_token).add(floors[_token]);\\n        uint256 balance = _token == ETH ? address(reserve).balance : ERC20(_token).staticBalanceOf(reserve);\\n        uint256 flow = (_currentBatchId().sub(lastTappedAmountUpdates[_token])).mul(rates[_token]);\\n        uint256 tappedAmount = tappedAmounts[_token].add(flow);\\n        /**\\n         * whatever happens enough collateral should be\\n         * kept in the reserve pool to guarantee that\\n         * its balance is kept above the floor once\\n         * all pending sell orders are claimed\\n        */\\n\\n        /**\\n         * the reserve's balance is already below the balance to be kept\\n         * the tapped amount should be reset to zero\\n        */\\n        if (balance <= toBeKept) {\\n            return 0;\\n        }\\n\\n        /**\\n         * the reserve's balance minus the upcoming tap flow would be below the balance to be kept\\n         * the flow should be reduced to balance - toBeKept\\n        */\\n        if (balance <= toBeKept.add(tappedAmount)) {\\n            return balance.sub(toBeKept);\\n        }\\n\\n        /**\\n         * the reserve's balance minus the upcoming flow is above the balance to be kept\\n         * the flow can be added to the tapped amount\\n        */\\n        return tappedAmount;\\n    }\\n\\n    /* check functions */\\n\\n    function _beneficiaryIsValid(address _beneficiary) internal pure returns (bool) {\\n        return _beneficiary != address(0);\\n    }\\n\\n    function _maximumTapFloorDecreasePctIsValid(uint256 _maximumTapFloorDecreasePct) internal pure returns (bool) {\\n        return _maximumTapFloorDecreasePct <= PCT_BASE;\\n    }\\n\\n    function _tokenIsContractOrETH(address _token) internal view returns (bool) {\\n        return isContract(_token) || _token == ETH;\\n    }\\n\\n    function _tokenIsTapped(address _token) internal view returns (bool) {\\n        return rates[_token] != uint256(0);\\n    }\\n\\n    function _tapRateIsValid(uint256 _rate) internal pure returns (bool) {\\n        return _rate != 0;\\n    }\\n\\n    function _tapUpdateIsValid(address _token, uint256 _rate, uint256 _floor) internal view returns (bool) {\\n        return _tapRateUpdateIsValid(_token, _rate) && _tapFloorUpdateIsValid(_token, _floor);\\n    }\\n\\n    function _tapRateUpdateIsValid(address _token, uint256 _rate) internal view returns (bool) {\\n        uint256 rate = rates[_token];\\n\\n        if (_rate <= rate) {\\n            return true;\\n        }\\n\\n        if (getTimestamp() < lastTapUpdates[_token] + 30 days) {\\n            return false;\\n        }\\n\\n        if (_rate.mul(PCT_BASE) <= rate.mul(PCT_BASE.add(maximumTapRateIncreasePct))) {\\n            return true;\\n        }\\n\\n        return false;\\n    }\\n\\n    function _tapFloorUpdateIsValid(address _token, uint256 _floor) internal view returns (bool) {\\n        uint256 floor = floors[_token];\\n\\n        if (_floor >= floor) {\\n            return true;\\n        }\\n\\n        if (getTimestamp() < lastTapUpdates[_token] + 30 days) {\\n            return false;\\n        }\\n\\n        if (maximumTapFloorDecreasePct >= PCT_BASE) {\\n            return true;\\n        }\\n\\n        if (_floor.mul(PCT_BASE) >= floor.mul(PCT_BASE.sub(maximumTapFloorDecreasePct))) {\\n            return true;\\n        }\\n\\n        return false;\\n    }\\n\\n    /* state modifying functions */\\n\\n    function _updateTappedAmount(address _token) internal returns (uint256) {\\n        uint256 tappedAmount = _tappedAmount(_token);\\n        lastTappedAmountUpdates[_token] = _currentBatchId();\\n        tappedAmounts[_token] = tappedAmount;\\n\\n        emit UpdateTappedAmount(_token, tappedAmount);\\n\\n        return tappedAmount;\\n    }\\n\\n    function _updateBeneficiary(address _beneficiary) internal {\\n        beneficiary = _beneficiary;\\n\\n        emit UpdateBeneficiary(_beneficiary);\\n    }\\n\\n    function _updateMaximumTapRateIncreasePct(uint256 _maximumTapRateIncreasePct) internal {\\n        maximumTapRateIncreasePct = _maximumTapRateIncreasePct;\\n\\n        emit UpdateMaximumTapRateIncreasePct(_maximumTapRateIncreasePct);\\n    }\\n\\n    function _updateMaximumTapFloorDecreasePct(uint256 _maximumTapFloorDecreasePct) internal {\\n        maximumTapFloorDecreasePct = _maximumTapFloorDecreasePct;\\n\\n        emit UpdateMaximumTapFloorDecreasePct(_maximumTapFloorDecreasePct);\\n    }\\n\\n    function _addTappedToken(address _token, uint256 _rate, uint256 _floor) internal {\\n        /**\\n         * NOTE\\n         * 1. if _token is tapped in the middle of a batch it will\\n         * reach the next batch faster than what it normally takes\\n         * to go through a batch [e.g. one block later]\\n         * 2. this will allow for a higher withdrawal than expected\\n         * a few blocks after _token is tapped\\n         * 3. this is not a problem because this extra amount is\\n         * static [at most rates[_token] * batchBlocks] and does\\n         * not increase in time\\n        */\\n        rates[_token] = _rate;\\n        floors[_token] = _floor;\\n        lastTappedAmountUpdates[_token] = _currentBatchId();\\n        lastTapUpdates[_token] = getTimestamp();\\n\\n        emit AddTappedToken(_token, _rate, _floor);\\n    }\\n\\n    function _removeTappedToken(address _token) internal {\\n        delete tappedAmounts[_token];\\n        delete rates[_token];\\n        delete floors[_token];\\n        delete lastTappedAmountUpdates[_token];\\n        delete lastTapUpdates[_token];\\n\\n        emit RemoveTappedToken(_token);\\n    }\\n\\n    function _updateTappedToken(address _token, uint256 _rate, uint256 _floor) internal {\\n        /**\\n         * NOTE\\n         * withdraw before updating to keep the reserve\\n         * actual balance [balance - virtual withdrawal]\\n         * continuous in time [though a floor update can\\n         * still break this continuity]\\n        */\\n        uint256 amount = _updateTappedAmount(_token);\\n        if (amount > 0) {\\n            _withdraw(_token, amount);\\n        }\\n\\n        rates[_token] = _rate;\\n        floors[_token] = _floor;\\n        lastTapUpdates[_token] = getTimestamp();\\n\\n        emit UpdateTappedToken(_token, _rate, _floor);\\n    }\\n\\n    function _resetTappedToken(address _token) internal {\\n        tappedAmounts[_token] = 0;\\n        lastTappedAmountUpdates[_token] = _currentBatchId();\\n        lastTapUpdates[_token] = getTimestamp();\\n\\n        emit ResetTappedToken(_token);\\n    }\\n\\n    function _withdraw(address _token, uint256 _amount) internal {\\n        tappedAmounts[_token] = tappedAmounts[_token].sub(_amount);\\n        reserve.transfer(_token, beneficiary, _amount); // vault contract's transfer method already reverts on error\\n\\n        emit Withdraw(_token, _amount);\\n    }\\n}\",\"keccak256\":\"0x429b325dfd43f80cb3882908ef9ac13aeb3640c5f707faad27c4849a9f2ffd9d\"}},\"version\":1}",
+  "bytecode": "0x6080604052620000176401000000006200001d810204565b6200023b565b6200003064010000000062000125810204565b60408051808201909152601881527f494e49545f414c52454144595f494e495449414c495a45440000000000000000602082015290156200010c576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360005b83811015620000d0578181015183820152602001620000b6565b50505050905090810190601f168015620000fe5780820380516001836020036101000a031916815260200191505b509250505060405180910390fd5b506200012360001964010000000062000154810204565b565b60006200014f60008051602062003b3c83398151915264010000000062002cd06200023382021704565b905090565b6200016764010000000062000125810204565b60408051808201909152601881527f494e49545f414c52454144595f494e495449414c495a454400000000000000006020820152901562000206576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252838181518152602001915080519060200190808383600083811015620000d0578181015183820152602001620000b6565b506200023060008051602062003b3c83398151915282640100000000620034736200023782021704565b50565b5490565b9055565b6138f1806200024b6000396000f3006080604052600436106102195763ffffffff7c010000000000000000000000000000000000000000000000000000000060003504166307e18bc8811461021e5780630803fac014610238578063092c684f146102615780630aaffd2a146102885780632914b9bd146102b657806332f0a3b51461033857806338af3eed1461034d57806341644f8c14610362578063486b6d1a146103775780634c862136146103a557806351cff8d9146103ba5780635503c656146103e85780635567de451461041657806372405ee014610444578063728cdbca1461045957806378986e641461049c5780637e7db6e1146104b157806380afdea8146104df578063846a0a89146104f45780638b3dd749146105225780639cbbba88146105375780639d4941d814610565578063a1658fad14610593578063a479e50814610607578063a59a58321461061c578063a8734f0b14610631578063b897b6281461065f578063bf5ae74314610693578063c102b1b5146106a8578063c56f0f6c146106bd578063cc3f861f146106d2578063cc77491b14610700578063cd3293de14610715578063d0c063be1461072a578063d21bd8201461073f578063d4aae0c414610757578063de4796ed1461076c578063e02023a114610781578063e1264fcd14610796578063e2a5aec5146107c4578063ed20de58146107f2578063f30a00ce14610807578063f77c47911461083b578063fc157cb414610850575b600080fd5b34801561022a57600080fd5b50610236600435610865565b005b34801561024457600080fd5b5061024d61098e565b604080519115158252519081900360200190f35b34801561026d57600080fd5b506102766109b7565b60408051918252519081900360200190f35b34801561029457600080fd5b5061023673ffffffffffffffffffffffffffffffffffffffff600435166109db565b3480156102c257600080fd5b506040805160206004803580820135601f810184900484028501840190955284845261030f943694929360249392840191908190840183828082843750949750610b699650505050505050565b6040805173ffffffffffffffffffffffffffffffffffffffff9092168252519081900360200190f35b34801561034457600080fd5b5061030f610c75565b34801561035957600080fd5b5061030f610d13565b34801561036e57600080fd5b50610276610d2f565b34801561038357600080fd5b5061023673ffffffffffffffffffffffffffffffffffffffff60043516610d53565b3480156103b157600080fd5b50610276610ee1565b3480156103c657600080fd5b5061023673ffffffffffffffffffffffffffffffffffffffff60043516610ee7565b3480156103f457600080fd5b5061027673ffffffffffffffffffffffffffffffffffffffff60043516611126565b34801561042257600080fd5b5061027673ffffffffffffffffffffffffffffffffffffffff60043516611138565b34801561045057600080fd5b5061027661114a565b34801561046557600080fd5b5061023673ffffffffffffffffffffffffffffffffffffffff6004358116906024358116906044351660643560843560a43561116e565b3480156104a857600080fd5b506102766115c9565b3480156104bd57600080fd5b5061024d73ffffffffffffffffffffffffffffffffffffffff600435166115ed565b3480156104eb57600080fd5b506102766115f3565b34801561050057600080fd5b5061023673ffffffffffffffffffffffffffffffffffffffff60043516611623565b34801561052e57600080fd5b506102766116d3565b34801561054357600080fd5b5061023673ffffffffffffffffffffffffffffffffffffffff600435166116fe565b34801561057157600080fd5b5061023673ffffffffffffffffffffffffffffffffffffffff6004351661188c565b34801561059f57600080fd5b50604080516020600460443581810135838102808601850190965280855261024d95833573ffffffffffffffffffffffffffffffffffffffff16956024803596369695606495939492019291829185019084908082843750949750611bae9650505050505050565b34801561061357600080fd5b5061030f611d3e565b34801561062857600080fd5b50610276611e00565b34801561063d57600080fd5b5061027673ffffffffffffffffffffffffffffffffffffffff60043516611e24565b34801561066b57600080fd5b5061023673ffffffffffffffffffffffffffffffffffffffff60043516602435604435611ef5565b34801561069f57600080fd5b506102766121d8565b3480156106b457600080fd5b506102766121fc565b3480156106c957600080fd5b50610276612220565b3480156106de57600080fd5b5061027673ffffffffffffffffffffffffffffffffffffffff60043516612226565b34801561070c57600080fd5b50610276612238565b34801561072157600080fd5b5061030f61225c565b34801561073657600080fd5b50610276612278565b34801561074b57600080fd5b5061023660043561229c565b34801561076357600080fd5b5061030f61242a565b34801561077857600080fd5b5061024d612455565b34801561078d57600080fd5b50610276612486565b3480156107a257600080fd5b5061027673ffffffffffffffffffffffffffffffffffffffff600435166124aa565b3480156107d057600080fd5b5061027673ffffffffffffffffffffffffffffffffffffffff600435166124bc565b3480156107fe57600080fd5b50610276612573565b34801561081357600080fd5b5061023673ffffffffffffffffffffffffffffffffffffffff60043516602435604435612579565b34801561084757600080fd5b5061030f612859565b34801561085c57600080fd5b50610276612875565b604080516000808252602082019092527f5d94de7e429250eee4ff97e30ab9f383bea3cd564d6780e0a9e965b1add1d207916108a79133918491905b50611bae565b60408051808201909152600f81527f4150505f415554485f4641494c454400000000000000000000000000000000006020820152901515610980576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360005b8381101561094557818101518382015260200161092d565b50505050905090810190601f1680156109725780820380516001836020036101000a031916815260200191505b509250505060405180910390fd5b5061098a82612881565b5050565b6000806109996116d3565b905080158015906109b15750806109ae6128bc565b10155b91505090565b7f454b5d0dbb74f012faf1d3722ea441689f97dc957dd3ca5335b4969586e5dc3081565b604080516000808252602082019092527ff7ea2b80c7b6a2cab2c11d2290cb005c3748397358a25e17113658c83b73259391610a1b9133918491906108a1565b60408051808201909152600f81527f4150505f415554485f4641494c454400000000000000000000000000000000006020820152901515610ab8576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b50610ac2826128c0565b60408051808201909152601781527f5441505f494e56414c49445f42454e45464943494152590000000000000000006020820152901515610b5f576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b5061098a826128db565b6000610b73611d3e565b73ffffffffffffffffffffffffffffffffffffffff166304bf2a7f836040518263ffffffff167c01000000000000000000000000000000000000000000000000000000000281526004018080602001828103825283818151815260200191508051906020019080838360005b83811015610bf7578181015183820152602001610bdf565b50505050905090810190601f168015610c245780820380516001836020036101000a031916815260200191505b5092505050602060405180830381600087803b158015610c4357600080fd5b505af1158015610c57573d6000803e3d6000fd5b505050506040513d6020811015610c6d57600080fd5b505192915050565b6000610c7f61242a565b73ffffffffffffffffffffffffffffffffffffffff166332f0a3b56040518163ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401602060405180830381600087803b158015610ce257600080fd5b505af1158015610cf6573d6000803e3d6000fd5b505050506040513d6020811015610d0c57600080fd5b5051905090565b60025473ffffffffffffffffffffffffffffffffffffffff1681565b7ff7ea2b80c7b6a2cab2c11d2290cb005c3748397358a25e17113658c83b73259381565b604080516000808252602082019092527fd76960be78bfedc5b40ce4fa64a2f8308f39dd2cbb1f9676dbc4ce87b817befd91610d939133918491906108a1565b60408051808201909152600f81527f4150505f415554485f4641494c454400000000000000000000000000000000006020820152901515610e30576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b50610e3a8261294a565b60408051808201909152601481527f5441505f544f4b454e5f4e4f545f5441505045440000000000000000000000006020820152901515610ed7576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b5061098a82612974565b60045481565b604080516000808252602082019092527f5d8e12c39142ff96d79d04d15d1ba1269e4fe57bb9d26f43523628b34ba108ec90610f279033908390856108a1565b60408051808201909152600f81527f4150505f415554485f4641494c454400000000000000000000000000000000006020820152901515610fc4576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b50610fce8361294a565b60408051808201909152601481527f5441505f544f4b454e5f4e4f545f544150504544000000000000000000000000602082015290151561106b576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b50611075836129f0565b60408051808201909152601a81527f5441505f5749544844524157414c5f414d4f554e545f5a45524f000000000000602082015290925060008311611116576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b506111218383612a7b565b505050565b60096020526000908152604090205481565b60066020526000908152604090205481565b7f5bc3b608e6be93b75a1c472a4a5bea3d31eabae46bf968e4bc4c7701562114dc81565b6111766116d3565b60408051808201909152601881527f494e49545f414c52454144595f494e495449414c495a4544000000000000000060208201529015611212576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b5061121c86612bb0565b60408051808201909152601381527f5441505f434f4e54524143545f49535f454f410000000000000000000000000060208201529015156112b9576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b506112c385612bb0565b60408051808201909152601381527f5441505f434f4e54524143545f49535f454f41000000000000000000000000006020820152901515611360576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b5061136a846128c0565b60408051808201909152601781527f5441505f494e56414c49445f42454e45464943494152590000000000000000006020820152901515611407576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b5060408051808201909152601881527f5441505f494e56414c49445f42415443485f424c4f434b53000000000000000060208201528315156114a5576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b506114af81612be3565b60408051808201909152601e81527f5441505f494e56414c49445f464c4f4f525f44454352454153455f5043540000602082015290151561154c576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b50611555612bf1565b600080547fffffffffffffffffffffffff000000000000000000000000000000000000000090811673ffffffffffffffffffffffffffffffffffffffff9889161790915560018054821696881696909617909555600280549095169390951692909217909255600391909155600455600555565b7f294bf52c518669359157a9fe826e510dfc3dbd200d44bf77ec9536bff34bc29e81565b50600190565b600061161e7fd625496217aa6a3453eecb9c3489dc5a53e6c67b444329ea2b2cbc9ff547639b612cd0565b905090565b61162c8161294a565b60408051808201909152601481527f5441505f544f4b454e5f4e4f545f54415050454400000000000000000000000060208201529015156116c9576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b5061098a816129f0565b600061161e7febb05b386a8d34882b8711d156f463690983dc47815980fb82aeeff1aa43579e612cd0565b604080516000808252602082019092527f294bf52c518669359157a9fe826e510dfc3dbd200d44bf77ec9536bff34bc29e9161173e9133918491906108a1565b60408051808201909152600f81527f4150505f415554485f4641494c4544000000000000000000000000000000000060208201529015156117db576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b506117e58261294a565b60408051808201909152601481527f5441505f544f4b454e5f4e4f545f5441505045440000000000000000000000006020820152901515611882576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b5061098a82612cd8565b600080600061189a846115ed565b60408051808201909152601281527f5245434f5645525f444953414c4c4f57454400000000000000000000000000006020820152901515611937576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b50611940610c75565b925061194b83612bb0565b60408051808201909152601a81527f5245434f5645525f5641554c545f4e4f545f434f4e545241435400000000000060208201529015156119e8576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b5073ffffffffffffffffffffffffffffffffffffffff84161515611a53576040513031925073ffffffffffffffffffffffffffffffffffffffff84169083156108fc029084906000818181858888f19350505050158015611a4d573d6000803e3d6000fd5b50611b43565b5082611a7b73ffffffffffffffffffffffffffffffffffffffff82163063ffffffff612d8816565b9150611aa473ffffffffffffffffffffffffffffffffffffffff8216848463ffffffff612ec116565b60408051808201909152601d81527f5245434f5645525f544f4b454e5f5452414e534645525f4641494c45440000006020820152901515611b41576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b505b8373ffffffffffffffffffffffffffffffffffffffff168373ffffffffffffffffffffffffffffffffffffffff167f596caf56044b55fb8c4ca640089bbc2b63cae3e978b851f5745cbb7c5b288e02846040518082815260200191505060405180910390a350505050565b600080611bb961098e565b1515611bc85760009150611d36565b611bd061242a565b905073ffffffffffffffffffffffffffffffffffffffff81161515611bf85760009150611d36565b8073ffffffffffffffffffffffffffffffffffffffff1663fdef9106863087611c2088612f59565b6040517c010000000000000000000000000000000000000000000000000000000063ffffffff871602815273ffffffffffffffffffffffffffffffffffffffff808616600483019081529085166024830152604482018490526080606483019081528351608484015283519192909160a490910190602085019080838360005b83811015611cb8578181015183820152602001611ca0565b50505050905090810190601f168015611ce55780820380516001836020036101000a031916815260200191505b5095505050505050602060405180830381600087803b158015611d0757600080fd5b505af1158015611d1b573d6000803e3d6000fd5b505050506040513d6020811015611d3157600080fd5b505191505b509392505050565b600080611d4961242a565b604080517fbe00bbd80000000000000000000000000000000000000000000000000000000081527fd6f028ca0e8edb4a8c9757ca4fdccab25fa1e0317da1188108f7d2dee14902fb60048201527fddbcfd564f642ab5627cf68b9b7d374fb4f8a36e941a75d89c87998cef03bd616024820152905173ffffffffffffffffffffffffffffffffffffffff929092169163be00bbd8916044808201926020929091908290030181600087803b158015610c4357600080fd5b7f7984c050833e1db850f5aa7476710412fd2983fcec34da049502835ad7aed4f781565b6000611e2e61098e565b60408051808201909152601481527f494e49545f4e4f545f494e495449414c495a45440000000000000000000000006020820152901515611ecb576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b505073ffffffffffffffffffffffffffffffffffffffff1660009081526007602052604090205490565b604080516000808252602082019092527f5bc3b608e6be93b75a1c472a4a5bea3d31eabae46bf968e4bc4c7701562114dc91611f359133918491906108a1565b60408051808201909152600f81527f4150505f415554485f4641494c454400000000000000000000000000000000006020820152901515611fd2576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b50611fdc84612f63565b60408051808201909152601181527f5441505f494e56414c49445f544f4b454e0000000000000000000000000000006020820152901515612079576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b506120838461294a565b60408051808201909152601881527f5441505f544f4b454e5f414c52454144595f54415050454400000000000000006020820152901561211f576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b5061212983612f8f565b60408051808201909152601481527f5441505f494e56414c49445f5441505f5241544500000000000000000000000060208201529015156121c6576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b506121d2848484612f94565b50505050565b7f83201394534c53ae0b4696fd49a933082d3e0525aa5a3d0a14a2f51e1221328881565b7f5d94de7e429250eee4ff97e30ab9f383bea3cd564d6780e0a9e965b1add1d20781565b60035481565b60086020526000908152604090205481565b7f57c9c67896cf0a4ffe92cbea66c2f7c34380af06bf14215dabb078cf8a6d99e181565b60015473ffffffffffffffffffffffffffffffffffffffff1681565b7fd76960be78bfedc5b40ce4fa64a2f8308f39dd2cbb1f9676dbc4ce87b817befd81565b604080516000808252602082019092527f57c9c67896cf0a4ffe92cbea66c2f7c34380af06bf14215dabb078cf8a6d99e1916122dc9133918491906108a1565b60408051808201909152600f81527f4150505f415554485f4641494c454400000000000000000000000000000000006020820152901515612379576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b5061238382612be3565b60408051808201909152601e81527f5441505f494e56414c49445f464c4f4f525f44454352454153455f50435400006020820152901515612420576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b5061098a8261306b565b600061161e7f4172f0f7d2289153072b0a6ca36959e0cbe2efc3afe50fc81636caa96338137b612cd0565b60007fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff6124806116d3565b14905090565b7f5d8e12c39142ff96d79d04d15d1ba1269e4fe57bb9d26f43523628b34ba108ec81565b600a6020526000908152604090205481565b60006124c661098e565b60408051808201909152601481527f494e49545f4e4f545f494e495449414c495a45440000000000000000000000006020820152901515612563576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b5061256d826130a6565b92915050565b60055481565b604080516000808252602082019092527f83201394534c53ae0b4696fd49a933082d3e0525aa5a3d0a14a2f51e12213288916125b99133918491906108a1565b60408051808201909152600f81527f4150505f415554485f4641494c454400000000000000000000000000000000006020820152901515612656576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b506126608461294a565b60408051808201909152601481527f5441505f544f4b454e5f4e4f545f54415050454400000000000000000000000060208201529015156126fd576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b5061270783612f8f565b60408051808201909152601481527f5441505f494e56414c49445f5441505f5241544500000000000000000000000060208201529015156127a4576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b506127b08484846132b8565b60408051808201909152601681527f5441505f494e56414c49445f5441505f55504441544500000000000000000000602082015290151561284d576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b506121d28484846132dd565b60005473ffffffffffffffffffffffffffffffffffffffff1681565b670de0b6b3a764000081565b60048190556040805182815290517f9b7e646ff02dfcf5eb44312fe1246b19fbd7cd135b5e8fc87ea8dabdba0a557a9181900360200190a150565b4390565b73ffffffffffffffffffffffffffffffffffffffff16151590565b600280547fffffffffffffffffffffffff00000000000000000000000000000000000000001673ffffffffffffffffffffffffffffffffffffffff83169081179091556040517fe6131a64e93e9aa4ff38892c34d563c06dcc1e03b3d6897cc65f0903e2ad684890600090a250565b73ffffffffffffffffffffffffffffffffffffffff16600090815260076020526040902054151590565b73ffffffffffffffffffffffffffffffffffffffff81166000818152600660209081526040808320839055600782528083208390556008825280832083905560098252808320839055600a909152808220829055517f501177e27fa4ac1960010be66ac3465730ea30d032efffb194ecdab56780a9a19190a250565b6000806129fc836130a6565b9050612a066133a7565b73ffffffffffffffffffffffffffffffffffffffff841660008181526009602090815260408083209490945560068152908390208490558251848152925191927f52a0ec2acc756c1e658413fdceb6e3d7621deafa23d6f7cf8cfe8dac74f58f38929081900390910190a28091505b50919050565b73ffffffffffffffffffffffffffffffffffffffff8216600090815260066020526040902054612ab1908263ffffffff6133c116565b73ffffffffffffffffffffffffffffffffffffffff8084166000818152600660205260408082209490945560015460025485517fbeabacc8000000000000000000000000000000000000000000000000000000008152600481019490945284166024840152604483018690529351939092169263beabacc89260648084019391929182900301818387803b158015612b4857600080fd5b505af1158015612b5c573d6000803e3d6000fd5b505060408051848152905173ffffffffffffffffffffffffffffffffffffffff861693507f884edad9ce6fa2440d8a54cc123490eb96d2768479d49ff9c7366125a942436492509081900360200190a25050565b60008073ffffffffffffffffffffffffffffffffffffffff83161515612bd95760009150612a75565b50506000903b1190565b670de0b6b3a7640000101590565b612bf96116d3565b60408051808201909152601881527f494e49545f414c52454144595f494e495449414c495a4544000000000000000060208201529015612c95576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b50612cce612ca16128bc565b7febb05b386a8d34882b8711d156f463690983dc47815980fb82aeeff1aa43579e9063ffffffff61347316565b565b5490565b5490565b73ffffffffffffffffffffffffffffffffffffffff8116600090815260066020526040812055612d066133a7565b73ffffffffffffffffffffffffffffffffffffffff8216600090815260096020526040902055612d34613477565b73ffffffffffffffffffffffffffffffffffffffff82166000818152600a602052604080822093909355915190917fd6bb4268f8b24a4b1224ccb373917deefefc838e5deb90fc31bf588f809eb5b091a250565b6040805173ffffffffffffffffffffffffffffffffffffffff83166024808301919091528251808303909101815260449091019091526020810180517bffffffffffffffffffffffffffffffffffffffffffffffffffffffff167f70a08231000000000000000000000000000000000000000000000000000000001790526000908180612e15868461347b565b60408051808201909152601c81527f534146455f4552435f32305f42414c414e43455f52455645525445440000000060208201529193509150821515612eb7576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b5095945050505050565b6040805173ffffffffffffffffffffffffffffffffffffffff8416602482015260448082018490528251808303909101815260649091019091526020810180517bffffffffffffffffffffffffffffffffffffffffffffffffffffffff167fa9059cbb00000000000000000000000000000000000000000000000000000000179052600090612f5085826134ac565b95945050505050565b8051602002815290565b6000612f6e82612bb0565b8061256d57505073ffffffffffffffffffffffffffffffffffffffff161590565b151590565b73ffffffffffffffffffffffffffffffffffffffff8316600090815260076020908152604080832085905560089091529020819055612fd16133a7565b73ffffffffffffffffffffffffffffffffffffffff8416600090815260096020526040902055612fff613477565b73ffffffffffffffffffffffffffffffffffffffff84166000818152600a6020908152604091829020939093558051858152928301849052805191927fd68f3ca2b9dba133e5d2c7434e9354e135d834bb79a415b6ee8a640d61631260929081900390910190a2505050565b60058190556040805182815290517fa9ff459c90a69cad3990e8d42d4becd66f4252de3fd0da15700f4eb1f31d33e49181900360200190a150565b73ffffffffffffffffffffffffffffffffffffffff808216600081815260086020908152604080832054835482517f4afe6c47000000000000000000000000000000000000000000000000000000008152600481019690965291519395869586958695869561316c95941692634afe6c47926024808301939282900301818987803b15801561313457600080fd5b505af1158015613148573d6000803e3d6000fd5b505050506040513d602081101561315e57600080fd5b50519063ffffffff6134fa16565b935073ffffffffffffffffffffffffffffffffffffffff8616156131bb576001546131b69073ffffffffffffffffffffffffffffffffffffffff888116911663ffffffff612d8816565b6131d6565b60015473ffffffffffffffffffffffffffffffffffffffff16315b73ffffffffffffffffffffffffffffffffffffffff8716600090815260076020908152604080832054600990925290912054919450613233916132279061321b6133a7565b9063ffffffff6133c116565b9063ffffffff61359f16565b73ffffffffffffffffffffffffffffffffffffffff871660009081526006602052604090205490925061326c908363ffffffff6134fa16565b905083831161327e57600094506132af565b61328e848263ffffffff6134fa16565b83116132ab576132a4838563ffffffff6133c116565b94506132af565b8094505b50505050919050565b60006132c48484613661565b80156132d557506132d58483613736565b949350505050565b60006132e8846129f0565b905060008111156132fd576132fd8482612a7b565b73ffffffffffffffffffffffffffffffffffffffff841660009081526007602090815260408083208690556008909152902082905561333a613477565b73ffffffffffffffffffffffffffffffffffffffff85166000818152600a6020908152604091829020939093558051868152928301859052805191927fd163e19d68c378e6a686a4f7b29752e9132fcb27e94cba5824967cda8f707746929081900390910190a250505050565b60035460009061161e90613227438263ffffffff61380e16565b60408051808201909152601281527f4d4154485f5355425f554e444552464c4f5700000000000000000000000000006020820152600090819084841115613464576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b505050808203805b5092915050565b9055565b4290565b6000806000806040516020818751602089018a5afa925060008311156134a057805191505b50909590945092505050565b6000806040516020818551602087016000895af160008111156134f0573d80156134dd57602081146134e6576134ee565b600193506134ee565b600183511493505b505b5090949350505050565b60408051808201909152601181527f4d4154485f4144445f4f564552464c4f5700000000000000000000000000000060208201526000908383019084821015611d36576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b6000808315156135b2576000915061346c565b508282028284828115156135c257fe5b60408051808201909152601181527f4d4154485f4d554c5f4f564552464c4f5700000000000000000000000000000060208201529291900414611d36576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b73ffffffffffffffffffffffffffffffffffffffff8216600090815260076020526040812054808311613697576001915061346c565b73ffffffffffffffffffffffffffffffffffffffff84166000908152600a602052604090205462278d00016136ca613477565b10156136d9576000915061346c565b6137066136f9600454670de0b6b3a76400006134fa90919063ffffffff16565b829063ffffffff61359f16565b61371e84670de0b6b3a764000063ffffffff61359f16565b1161372c576001915061346c565b5060009392505050565b73ffffffffffffffffffffffffffffffffffffffff821660009081526008602052604081205480831061376c576001915061346c565b73ffffffffffffffffffffffffffffffffffffffff84166000908152600a602052604090205462278d000161379f613477565b10156137ae576000915061346c565b600554670de0b6b3a7640000116137c8576001915061346c565b6137e86136f9600554670de0b6b3a76400006133c190919063ffffffff16565b61380084670de0b6b3a764000063ffffffff61359f16565b1061372c576001915061346c565b60408051808201909152600d81527f4d4154485f4449565f5a45524f00000000000000000000000000000000000000602082015260009081908184116138b0576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b5082848115156138bc57fe5b049493505050505600a165627a7a723058201dab0031d779d8749bd37c662740b1759bb8afa4c71b04c9342e9f0e995857b00029ebb05b386a8d34882b8711d156f463690983dc47815980fb82aeeff1aa43579e",
+  "deployedBytecode": "0x6080604052600436106102195763ffffffff7c010000000000000000000000000000000000000000000000000000000060003504166307e18bc8811461021e5780630803fac014610238578063092c684f146102615780630aaffd2a146102885780632914b9bd146102b657806332f0a3b51461033857806338af3eed1461034d57806341644f8c14610362578063486b6d1a146103775780634c862136146103a557806351cff8d9146103ba5780635503c656146103e85780635567de451461041657806372405ee014610444578063728cdbca1461045957806378986e641461049c5780637e7db6e1146104b157806380afdea8146104df578063846a0a89146104f45780638b3dd749146105225780639cbbba88146105375780639d4941d814610565578063a1658fad14610593578063a479e50814610607578063a59a58321461061c578063a8734f0b14610631578063b897b6281461065f578063bf5ae74314610693578063c102b1b5146106a8578063c56f0f6c146106bd578063cc3f861f146106d2578063cc77491b14610700578063cd3293de14610715578063d0c063be1461072a578063d21bd8201461073f578063d4aae0c414610757578063de4796ed1461076c578063e02023a114610781578063e1264fcd14610796578063e2a5aec5146107c4578063ed20de58146107f2578063f30a00ce14610807578063f77c47911461083b578063fc157cb414610850575b600080fd5b34801561022a57600080fd5b50610236600435610865565b005b34801561024457600080fd5b5061024d61098e565b604080519115158252519081900360200190f35b34801561026d57600080fd5b506102766109b7565b60408051918252519081900360200190f35b34801561029457600080fd5b5061023673ffffffffffffffffffffffffffffffffffffffff600435166109db565b3480156102c257600080fd5b506040805160206004803580820135601f810184900484028501840190955284845261030f943694929360249392840191908190840183828082843750949750610b699650505050505050565b6040805173ffffffffffffffffffffffffffffffffffffffff9092168252519081900360200190f35b34801561034457600080fd5b5061030f610c75565b34801561035957600080fd5b5061030f610d13565b34801561036e57600080fd5b50610276610d2f565b34801561038357600080fd5b5061023673ffffffffffffffffffffffffffffffffffffffff60043516610d53565b3480156103b157600080fd5b50610276610ee1565b3480156103c657600080fd5b5061023673ffffffffffffffffffffffffffffffffffffffff60043516610ee7565b3480156103f457600080fd5b5061027673ffffffffffffffffffffffffffffffffffffffff60043516611126565b34801561042257600080fd5b5061027673ffffffffffffffffffffffffffffffffffffffff60043516611138565b34801561045057600080fd5b5061027661114a565b34801561046557600080fd5b5061023673ffffffffffffffffffffffffffffffffffffffff6004358116906024358116906044351660643560843560a43561116e565b3480156104a857600080fd5b506102766115c9565b3480156104bd57600080fd5b5061024d73ffffffffffffffffffffffffffffffffffffffff600435166115ed565b3480156104eb57600080fd5b506102766115f3565b34801561050057600080fd5b5061023673ffffffffffffffffffffffffffffffffffffffff60043516611623565b34801561052e57600080fd5b506102766116d3565b34801561054357600080fd5b5061023673ffffffffffffffffffffffffffffffffffffffff600435166116fe565b34801561057157600080fd5b5061023673ffffffffffffffffffffffffffffffffffffffff6004351661188c565b34801561059f57600080fd5b50604080516020600460443581810135838102808601850190965280855261024d95833573ffffffffffffffffffffffffffffffffffffffff16956024803596369695606495939492019291829185019084908082843750949750611bae9650505050505050565b34801561061357600080fd5b5061030f611d3e565b34801561062857600080fd5b50610276611e00565b34801561063d57600080fd5b5061027673ffffffffffffffffffffffffffffffffffffffff60043516611e24565b34801561066b57600080fd5b5061023673ffffffffffffffffffffffffffffffffffffffff60043516602435604435611ef5565b34801561069f57600080fd5b506102766121d8565b3480156106b457600080fd5b506102766121fc565b3480156106c957600080fd5b50610276612220565b3480156106de57600080fd5b5061027673ffffffffffffffffffffffffffffffffffffffff60043516612226565b34801561070c57600080fd5b50610276612238565b34801561072157600080fd5b5061030f61225c565b34801561073657600080fd5b50610276612278565b34801561074b57600080fd5b5061023660043561229c565b34801561076357600080fd5b5061030f61242a565b34801561077857600080fd5b5061024d612455565b34801561078d57600080fd5b50610276612486565b3480156107a257600080fd5b5061027673ffffffffffffffffffffffffffffffffffffffff600435166124aa565b3480156107d057600080fd5b5061027673ffffffffffffffffffffffffffffffffffffffff600435166124bc565b3480156107fe57600080fd5b50610276612573565b34801561081357600080fd5b5061023673ffffffffffffffffffffffffffffffffffffffff60043516602435604435612579565b34801561084757600080fd5b5061030f612859565b34801561085c57600080fd5b50610276612875565b604080516000808252602082019092527f5d94de7e429250eee4ff97e30ab9f383bea3cd564d6780e0a9e965b1add1d207916108a79133918491905b50611bae565b60408051808201909152600f81527f4150505f415554485f4641494c454400000000000000000000000000000000006020820152901515610980576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360005b8381101561094557818101518382015260200161092d565b50505050905090810190601f1680156109725780820380516001836020036101000a031916815260200191505b509250505060405180910390fd5b5061098a82612881565b5050565b6000806109996116d3565b905080158015906109b15750806109ae6128bc565b10155b91505090565b7f454b5d0dbb74f012faf1d3722ea441689f97dc957dd3ca5335b4969586e5dc3081565b604080516000808252602082019092527ff7ea2b80c7b6a2cab2c11d2290cb005c3748397358a25e17113658c83b73259391610a1b9133918491906108a1565b60408051808201909152600f81527f4150505f415554485f4641494c454400000000000000000000000000000000006020820152901515610ab8576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b50610ac2826128c0565b60408051808201909152601781527f5441505f494e56414c49445f42454e45464943494152590000000000000000006020820152901515610b5f576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b5061098a826128db565b6000610b73611d3e565b73ffffffffffffffffffffffffffffffffffffffff166304bf2a7f836040518263ffffffff167c01000000000000000000000000000000000000000000000000000000000281526004018080602001828103825283818151815260200191508051906020019080838360005b83811015610bf7578181015183820152602001610bdf565b50505050905090810190601f168015610c245780820380516001836020036101000a031916815260200191505b5092505050602060405180830381600087803b158015610c4357600080fd5b505af1158015610c57573d6000803e3d6000fd5b505050506040513d6020811015610c6d57600080fd5b505192915050565b6000610c7f61242a565b73ffffffffffffffffffffffffffffffffffffffff166332f0a3b56040518163ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401602060405180830381600087803b158015610ce257600080fd5b505af1158015610cf6573d6000803e3d6000fd5b505050506040513d6020811015610d0c57600080fd5b5051905090565b60025473ffffffffffffffffffffffffffffffffffffffff1681565b7ff7ea2b80c7b6a2cab2c11d2290cb005c3748397358a25e17113658c83b73259381565b604080516000808252602082019092527fd76960be78bfedc5b40ce4fa64a2f8308f39dd2cbb1f9676dbc4ce87b817befd91610d939133918491906108a1565b60408051808201909152600f81527f4150505f415554485f4641494c454400000000000000000000000000000000006020820152901515610e30576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b50610e3a8261294a565b60408051808201909152601481527f5441505f544f4b454e5f4e4f545f5441505045440000000000000000000000006020820152901515610ed7576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b5061098a82612974565b60045481565b604080516000808252602082019092527f5d8e12c39142ff96d79d04d15d1ba1269e4fe57bb9d26f43523628b34ba108ec90610f279033908390856108a1565b60408051808201909152600f81527f4150505f415554485f4641494c454400000000000000000000000000000000006020820152901515610fc4576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b50610fce8361294a565b60408051808201909152601481527f5441505f544f4b454e5f4e4f545f544150504544000000000000000000000000602082015290151561106b576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b50611075836129f0565b60408051808201909152601a81527f5441505f5749544844524157414c5f414d4f554e545f5a45524f000000000000602082015290925060008311611116576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b506111218383612a7b565b505050565b60096020526000908152604090205481565b60066020526000908152604090205481565b7f5bc3b608e6be93b75a1c472a4a5bea3d31eabae46bf968e4bc4c7701562114dc81565b6111766116d3565b60408051808201909152601881527f494e49545f414c52454144595f494e495449414c495a4544000000000000000060208201529015611212576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b5061121c86612bb0565b60408051808201909152601381527f5441505f434f4e54524143545f49535f454f410000000000000000000000000060208201529015156112b9576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b506112c385612bb0565b60408051808201909152601381527f5441505f434f4e54524143545f49535f454f41000000000000000000000000006020820152901515611360576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b5061136a846128c0565b60408051808201909152601781527f5441505f494e56414c49445f42454e45464943494152590000000000000000006020820152901515611407576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b5060408051808201909152601881527f5441505f494e56414c49445f42415443485f424c4f434b53000000000000000060208201528315156114a5576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b506114af81612be3565b60408051808201909152601e81527f5441505f494e56414c49445f464c4f4f525f44454352454153455f5043540000602082015290151561154c576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b50611555612bf1565b600080547fffffffffffffffffffffffff000000000000000000000000000000000000000090811673ffffffffffffffffffffffffffffffffffffffff9889161790915560018054821696881696909617909555600280549095169390951692909217909255600391909155600455600555565b7f294bf52c518669359157a9fe826e510dfc3dbd200d44bf77ec9536bff34bc29e81565b50600190565b600061161e7fd625496217aa6a3453eecb9c3489dc5a53e6c67b444329ea2b2cbc9ff547639b612cd0565b905090565b61162c8161294a565b60408051808201909152601481527f5441505f544f4b454e5f4e4f545f54415050454400000000000000000000000060208201529015156116c9576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b5061098a816129f0565b600061161e7febb05b386a8d34882b8711d156f463690983dc47815980fb82aeeff1aa43579e612cd0565b604080516000808252602082019092527f294bf52c518669359157a9fe826e510dfc3dbd200d44bf77ec9536bff34bc29e9161173e9133918491906108a1565b60408051808201909152600f81527f4150505f415554485f4641494c4544000000000000000000000000000000000060208201529015156117db576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b506117e58261294a565b60408051808201909152601481527f5441505f544f4b454e5f4e4f545f5441505045440000000000000000000000006020820152901515611882576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b5061098a82612cd8565b600080600061189a846115ed565b60408051808201909152601281527f5245434f5645525f444953414c4c4f57454400000000000000000000000000006020820152901515611937576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b50611940610c75565b925061194b83612bb0565b60408051808201909152601a81527f5245434f5645525f5641554c545f4e4f545f434f4e545241435400000000000060208201529015156119e8576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b5073ffffffffffffffffffffffffffffffffffffffff84161515611a53576040513031925073ffffffffffffffffffffffffffffffffffffffff84169083156108fc029084906000818181858888f19350505050158015611a4d573d6000803e3d6000fd5b50611b43565b5082611a7b73ffffffffffffffffffffffffffffffffffffffff82163063ffffffff612d8816565b9150611aa473ffffffffffffffffffffffffffffffffffffffff8216848463ffffffff612ec116565b60408051808201909152601d81527f5245434f5645525f544f4b454e5f5452414e534645525f4641494c45440000006020820152901515611b41576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b505b8373ffffffffffffffffffffffffffffffffffffffff168373ffffffffffffffffffffffffffffffffffffffff167f596caf56044b55fb8c4ca640089bbc2b63cae3e978b851f5745cbb7c5b288e02846040518082815260200191505060405180910390a350505050565b600080611bb961098e565b1515611bc85760009150611d36565b611bd061242a565b905073ffffffffffffffffffffffffffffffffffffffff81161515611bf85760009150611d36565b8073ffffffffffffffffffffffffffffffffffffffff1663fdef9106863087611c2088612f59565b6040517c010000000000000000000000000000000000000000000000000000000063ffffffff871602815273ffffffffffffffffffffffffffffffffffffffff808616600483019081529085166024830152604482018490526080606483019081528351608484015283519192909160a490910190602085019080838360005b83811015611cb8578181015183820152602001611ca0565b50505050905090810190601f168015611ce55780820380516001836020036101000a031916815260200191505b5095505050505050602060405180830381600087803b158015611d0757600080fd5b505af1158015611d1b573d6000803e3d6000fd5b505050506040513d6020811015611d3157600080fd5b505191505b509392505050565b600080611d4961242a565b604080517fbe00bbd80000000000000000000000000000000000000000000000000000000081527fd6f028ca0e8edb4a8c9757ca4fdccab25fa1e0317da1188108f7d2dee14902fb60048201527fddbcfd564f642ab5627cf68b9b7d374fb4f8a36e941a75d89c87998cef03bd616024820152905173ffffffffffffffffffffffffffffffffffffffff929092169163be00bbd8916044808201926020929091908290030181600087803b158015610c4357600080fd5b7f7984c050833e1db850f5aa7476710412fd2983fcec34da049502835ad7aed4f781565b6000611e2e61098e565b60408051808201909152601481527f494e49545f4e4f545f494e495449414c495a45440000000000000000000000006020820152901515611ecb576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b505073ffffffffffffffffffffffffffffffffffffffff1660009081526007602052604090205490565b604080516000808252602082019092527f5bc3b608e6be93b75a1c472a4a5bea3d31eabae46bf968e4bc4c7701562114dc91611f359133918491906108a1565b60408051808201909152600f81527f4150505f415554485f4641494c454400000000000000000000000000000000006020820152901515611fd2576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b50611fdc84612f63565b60408051808201909152601181527f5441505f494e56414c49445f544f4b454e0000000000000000000000000000006020820152901515612079576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b506120838461294a565b60408051808201909152601881527f5441505f544f4b454e5f414c52454144595f54415050454400000000000000006020820152901561211f576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b5061212983612f8f565b60408051808201909152601481527f5441505f494e56414c49445f5441505f5241544500000000000000000000000060208201529015156121c6576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b506121d2848484612f94565b50505050565b7f83201394534c53ae0b4696fd49a933082d3e0525aa5a3d0a14a2f51e1221328881565b7f5d94de7e429250eee4ff97e30ab9f383bea3cd564d6780e0a9e965b1add1d20781565b60035481565b60086020526000908152604090205481565b7f57c9c67896cf0a4ffe92cbea66c2f7c34380af06bf14215dabb078cf8a6d99e181565b60015473ffffffffffffffffffffffffffffffffffffffff1681565b7fd76960be78bfedc5b40ce4fa64a2f8308f39dd2cbb1f9676dbc4ce87b817befd81565b604080516000808252602082019092527f57c9c67896cf0a4ffe92cbea66c2f7c34380af06bf14215dabb078cf8a6d99e1916122dc9133918491906108a1565b60408051808201909152600f81527f4150505f415554485f4641494c454400000000000000000000000000000000006020820152901515612379576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b5061238382612be3565b60408051808201909152601e81527f5441505f494e56414c49445f464c4f4f525f44454352454153455f50435400006020820152901515612420576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b5061098a8261306b565b600061161e7f4172f0f7d2289153072b0a6ca36959e0cbe2efc3afe50fc81636caa96338137b612cd0565b60007fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff6124806116d3565b14905090565b7f5d8e12c39142ff96d79d04d15d1ba1269e4fe57bb9d26f43523628b34ba108ec81565b600a6020526000908152604090205481565b60006124c661098e565b60408051808201909152601481527f494e49545f4e4f545f494e495449414c495a45440000000000000000000000006020820152901515612563576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b5061256d826130a6565b92915050565b60055481565b604080516000808252602082019092527f83201394534c53ae0b4696fd49a933082d3e0525aa5a3d0a14a2f51e12213288916125b99133918491906108a1565b60408051808201909152600f81527f4150505f415554485f4641494c454400000000000000000000000000000000006020820152901515612656576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b506126608461294a565b60408051808201909152601481527f5441505f544f4b454e5f4e4f545f54415050454400000000000000000000000060208201529015156126fd576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b5061270783612f8f565b60408051808201909152601481527f5441505f494e56414c49445f5441505f5241544500000000000000000000000060208201529015156127a4576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b506127b08484846132b8565b60408051808201909152601681527f5441505f494e56414c49445f5441505f55504441544500000000000000000000602082015290151561284d576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b506121d28484846132dd565b60005473ffffffffffffffffffffffffffffffffffffffff1681565b670de0b6b3a764000081565b60048190556040805182815290517f9b7e646ff02dfcf5eb44312fe1246b19fbd7cd135b5e8fc87ea8dabdba0a557a9181900360200190a150565b4390565b73ffffffffffffffffffffffffffffffffffffffff16151590565b600280547fffffffffffffffffffffffff00000000000000000000000000000000000000001673ffffffffffffffffffffffffffffffffffffffff83169081179091556040517fe6131a64e93e9aa4ff38892c34d563c06dcc1e03b3d6897cc65f0903e2ad684890600090a250565b73ffffffffffffffffffffffffffffffffffffffff16600090815260076020526040902054151590565b73ffffffffffffffffffffffffffffffffffffffff81166000818152600660209081526040808320839055600782528083208390556008825280832083905560098252808320839055600a909152808220829055517f501177e27fa4ac1960010be66ac3465730ea30d032efffb194ecdab56780a9a19190a250565b6000806129fc836130a6565b9050612a066133a7565b73ffffffffffffffffffffffffffffffffffffffff841660008181526009602090815260408083209490945560068152908390208490558251848152925191927f52a0ec2acc756c1e658413fdceb6e3d7621deafa23d6f7cf8cfe8dac74f58f38929081900390910190a28091505b50919050565b73ffffffffffffffffffffffffffffffffffffffff8216600090815260066020526040902054612ab1908263ffffffff6133c116565b73ffffffffffffffffffffffffffffffffffffffff8084166000818152600660205260408082209490945560015460025485517fbeabacc8000000000000000000000000000000000000000000000000000000008152600481019490945284166024840152604483018690529351939092169263beabacc89260648084019391929182900301818387803b158015612b4857600080fd5b505af1158015612b5c573d6000803e3d6000fd5b505060408051848152905173ffffffffffffffffffffffffffffffffffffffff861693507f884edad9ce6fa2440d8a54cc123490eb96d2768479d49ff9c7366125a942436492509081900360200190a25050565b60008073ffffffffffffffffffffffffffffffffffffffff83161515612bd95760009150612a75565b50506000903b1190565b670de0b6b3a7640000101590565b612bf96116d3565b60408051808201909152601881527f494e49545f414c52454144595f494e495449414c495a4544000000000000000060208201529015612c95576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b50612cce612ca16128bc565b7febb05b386a8d34882b8711d156f463690983dc47815980fb82aeeff1aa43579e9063ffffffff61347316565b565b5490565b5490565b73ffffffffffffffffffffffffffffffffffffffff8116600090815260066020526040812055612d066133a7565b73ffffffffffffffffffffffffffffffffffffffff8216600090815260096020526040902055612d34613477565b73ffffffffffffffffffffffffffffffffffffffff82166000818152600a602052604080822093909355915190917fd6bb4268f8b24a4b1224ccb373917deefefc838e5deb90fc31bf588f809eb5b091a250565b6040805173ffffffffffffffffffffffffffffffffffffffff83166024808301919091528251808303909101815260449091019091526020810180517bffffffffffffffffffffffffffffffffffffffffffffffffffffffff167f70a08231000000000000000000000000000000000000000000000000000000001790526000908180612e15868461347b565b60408051808201909152601c81527f534146455f4552435f32305f42414c414e43455f52455645525445440000000060208201529193509150821515612eb7576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b5095945050505050565b6040805173ffffffffffffffffffffffffffffffffffffffff8416602482015260448082018490528251808303909101815260649091019091526020810180517bffffffffffffffffffffffffffffffffffffffffffffffffffffffff167fa9059cbb00000000000000000000000000000000000000000000000000000000179052600090612f5085826134ac565b95945050505050565b8051602002815290565b6000612f6e82612bb0565b8061256d57505073ffffffffffffffffffffffffffffffffffffffff161590565b151590565b73ffffffffffffffffffffffffffffffffffffffff8316600090815260076020908152604080832085905560089091529020819055612fd16133a7565b73ffffffffffffffffffffffffffffffffffffffff8416600090815260096020526040902055612fff613477565b73ffffffffffffffffffffffffffffffffffffffff84166000818152600a6020908152604091829020939093558051858152928301849052805191927fd68f3ca2b9dba133e5d2c7434e9354e135d834bb79a415b6ee8a640d61631260929081900390910190a2505050565b60058190556040805182815290517fa9ff459c90a69cad3990e8d42d4becd66f4252de3fd0da15700f4eb1f31d33e49181900360200190a150565b73ffffffffffffffffffffffffffffffffffffffff808216600081815260086020908152604080832054835482517f4afe6c47000000000000000000000000000000000000000000000000000000008152600481019690965291519395869586958695869561316c95941692634afe6c47926024808301939282900301818987803b15801561313457600080fd5b505af1158015613148573d6000803e3d6000fd5b505050506040513d602081101561315e57600080fd5b50519063ffffffff6134fa16565b935073ffffffffffffffffffffffffffffffffffffffff8616156131bb576001546131b69073ffffffffffffffffffffffffffffffffffffffff888116911663ffffffff612d8816565b6131d6565b60015473ffffffffffffffffffffffffffffffffffffffff16315b73ffffffffffffffffffffffffffffffffffffffff8716600090815260076020908152604080832054600990925290912054919450613233916132279061321b6133a7565b9063ffffffff6133c116565b9063ffffffff61359f16565b73ffffffffffffffffffffffffffffffffffffffff871660009081526006602052604090205490925061326c908363ffffffff6134fa16565b905083831161327e57600094506132af565b61328e848263ffffffff6134fa16565b83116132ab576132a4838563ffffffff6133c116565b94506132af565b8094505b50505050919050565b60006132c48484613661565b80156132d557506132d58483613736565b949350505050565b60006132e8846129f0565b905060008111156132fd576132fd8482612a7b565b73ffffffffffffffffffffffffffffffffffffffff841660009081526007602090815260408083208690556008909152902082905561333a613477565b73ffffffffffffffffffffffffffffffffffffffff85166000818152600a6020908152604091829020939093558051868152928301859052805191927fd163e19d68c378e6a686a4f7b29752e9132fcb27e94cba5824967cda8f707746929081900390910190a250505050565b60035460009061161e90613227438263ffffffff61380e16565b60408051808201909152601281527f4d4154485f5355425f554e444552464c4f5700000000000000000000000000006020820152600090819084841115613464576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b505050808203805b5092915050565b9055565b4290565b6000806000806040516020818751602089018a5afa925060008311156134a057805191505b50909590945092505050565b6000806040516020818551602087016000895af160008111156134f0573d80156134dd57602081146134e6576134ee565b600193506134ee565b600183511493505b505b5090949350505050565b60408051808201909152601181527f4d4154485f4144445f4f564552464c4f5700000000000000000000000000000060208201526000908383019084821015611d36576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b6000808315156135b2576000915061346c565b508282028284828115156135c257fe5b60408051808201909152601181527f4d4154485f4d554c5f4f564552464c4f5700000000000000000000000000000060208201529291900414611d36576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b73ffffffffffffffffffffffffffffffffffffffff8216600090815260076020526040812054808311613697576001915061346c565b73ffffffffffffffffffffffffffffffffffffffff84166000908152600a602052604090205462278d00016136ca613477565b10156136d9576000915061346c565b6137066136f9600454670de0b6b3a76400006134fa90919063ffffffff16565b829063ffffffff61359f16565b61371e84670de0b6b3a764000063ffffffff61359f16565b1161372c576001915061346c565b5060009392505050565b73ffffffffffffffffffffffffffffffffffffffff821660009081526008602052604081205480831061376c576001915061346c565b73ffffffffffffffffffffffffffffffffffffffff84166000908152600a602052604090205462278d000161379f613477565b10156137ae576000915061346c565b600554670de0b6b3a7640000116137c8576001915061346c565b6137e86136f9600554670de0b6b3a76400006133c190919063ffffffff16565b61380084670de0b6b3a764000063ffffffff61359f16565b1061372c576001915061346c565b60408051808201909152600d81527f4d4154485f4449565f5a45524f00000000000000000000000000000000000000602082015260009081908184116138b0576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360008381101561094557818101518382015260200161092d565b5082848115156138bc57fe5b049493505050505600a165627a7a723058201dab0031d779d8749bd37c662740b1759bb8afa4c71b04c9342e9f0e995857b00029",
+  "devdoc": {
+    "methods": {
+      "addTappedToken(address,uint256,uint256)": {
+        "params": {
+          "_floor": "The floor above which the reserve [pool] balance for that token is to be kept [in wei]",
+          "_rate": "The rate at which that token is to be tapped [in wei / block]",
+          "_token": "The address of the token to be tapped"
+        }
+      },
+      "allowRecoverability(address)": {
+        "details": "By default deriving from AragonApp makes it recoverable",
+        "params": {
+          "token": "Token address that would be recovered"
+        },
+        "return": "bool whether the app allows the recovery"
+      },
+      "canPerform(address,bytes32,uint256[])": {
+        "details": "Check whether an action can be performed by a sender for a particular role on this app",
+        "params": {
+          "_params": "Permission params for the role",
+          "_role": "Role on this app",
+          "_sender": "Sender of the call"
+        },
+        "return": "Boolean indicating whether the sender has the permissions to perform the action.        Always returns false if the app hasn't been initialized yet."
+      },
+      "getInitializationBlock()": {
+        "return": "Block number in which the contract was initialized"
+      },
+      "getRecoveryVault()": {
+        "details": "Get the recovery vault for the app",
+        "return": "Recovery vault address for the app"
+      },
+      "hasInitialized()": {
+        "return": "Whether the contract has been initialized by the time of the current block"
+      },
+      "initialize(address,address,address,uint256,uint256,uint256)": {
+        "params": {
+          "_batchBlocks": "The number of blocks batches are to last",
+          "_beneficiary": "The address of the beneficiary [to whom funds are to be withdrawn]",
+          "_controller": "The address of the controller contract",
+          "_maximumTapFloorDecreasePct": "The maximum tap floor decrease percentage allowed [in PCT_BASE]",
+          "_maximumTapRateIncreasePct": "The maximum tap rate increase percentage allowed [in PCT_BASE]",
+          "_reserve": "The address of the reserve [pool] contract"
+        }
+      },
+      "removeTappedToken(address)": {
+        "params": {
+          "_token": "The address of the token to be un-tapped"
+        }
+      },
+      "resetTappedToken(address)": {
+        "params": {
+          "_token": "The address of the token whose tap timestamps are to be reset"
+        }
+      },
+      "transferToVault(address)": {
+        "params": {
+          "_token": "Token balance to be sent to recovery vault."
+        }
+      },
+      "updateBeneficiary(address)": {
+        "params": {
+          "_beneficiary": "The address of the new beneficiary [to whom funds are to be withdrawn]"
+        }
+      },
+      "updateMaximumTapFloorDecreasePct(uint256)": {
+        "params": {
+          "_maximumTapFloorDecreasePct": "The new maximum tap floor decrease percentage to be allowed [in PCT_BASE]"
+        }
+      },
+      "updateMaximumTapRateIncreasePct(uint256)": {
+        "params": {
+          "_maximumTapRateIncreasePct": "The new maximum tap rate increase percentage to be allowed [in PCT_BASE]"
+        }
+      },
+      "updateTappedAmount(address)": {
+        "params": {
+          "_token": "The address of the token whose tapped amount is to be updated"
+        }
+      },
+      "updateTappedToken(address,uint256,uint256)": {
+        "params": {
+          "_floor": "The new floor above which the reserve [pool] balance for that token is to be kept [in wei]",
+          "_rate": "The new rate at which that token is to be tapped [in wei / block]",
+          "_token": "The address of the token whose tap is to be updated"
+        }
+      },
+      "withdraw(address)": {
+        "params": {
+          "_token": "The address of the token to be transfered"
+        }
+      }
+    }
+  },
+  "userdoc": {
+    "methods": {
+      "addTappedToken(address,uint256,uint256)": {
+        "notice": "Add tap for `_token.symbol(): string` with a rate of `@tokenAmount(_token, _rate)` per block and a floor of `@tokenAmount(_token, _floor)`"
+      },
+      "getMaximumWithdrawal(address)": {
+        "notice": "*** public view functions ****"
+      },
+      "initialize(address,address,address,uint256,uint256,uint256)": {
+        "notice": "Initialize tap"
+      },
+      "removeTappedToken(address)": {
+        "notice": "Remove tap for `_token.symbol(): string`"
+      },
+      "resetTappedToken(address)": {
+        "notice": "Reset tap timestamps for `_token.symbol(): string`"
+      },
+      "transferToVault(address)": {
+        "notice": "Send funds to recovery Vault. This contract should never receive funds,        but in case it does, this function allows one to recover them."
+      },
+      "updateBeneficiary(address)": {
+        "notice": "Update beneficiary to `_beneficiary`"
+      },
+      "updateMaximumTapFloorDecreasePct(uint256)": {
+        "notice": "Update maximum tap floor decrease percentage to `@formatPct(_maximumTapFloorDecreasePct)`%"
+      },
+      "updateMaximumTapRateIncreasePct(uint256)": {
+        "notice": "Update maximum tap rate increase percentage to `@formatPct(_maximumTapRateIncreasePct)`%"
+      },
+      "updateTappedAmount(address)": {
+        "notice": "Update tapped amount for `_token.symbol(): string`"
+      },
+      "updateTappedToken(address,uint256,uint256)": {
+        "notice": "Update tap for `_token.symbol(): string` with a rate of `@tokenAmount(_token, _rate)` per block and a floor of `@tokenAmount(_token, _floor)`"
+      },
+      "withdraw(address)": {
+        "notice": "Transfer about `@tokenAmount(_token, self.getMaximalWithdrawal(_token): uint256)` from `self.reserve()` to `self.beneficiary()`"
+      }
+    }
+  }
+}
