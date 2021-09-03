@@ -15,21 +15,19 @@ module.exports = {
   solidity: {
     compilers: [
       {
-        version: "0.4.24",
+        version: '0.4.24',
         settings: {
           optimizer: {
             enabled: true,
-            runs: 800,
+            runs: 10000,
           },
         },
-      }
+      },
     ],
   },
   aragon: {
-    appEnsName: "TBD.aragonpm.eth",
-    appContractName: "Bancor-Formula",
-    appRoles: [],
-    appBuildOutputPath: "app/build/",
+    appEnsName: 'bancor-formula.aragonpm.eth',
+    appContractName: 'BancorFormula',
   },
   networks: {
     hardhat: {
@@ -39,51 +37,49 @@ module.exports = {
       forking: process.env.HARDHAT_FORK
         ? {
             url: node_url(process.env.HARDHAT_FORK),
-            blockNumber: process.env.HARDHAT_FORK_NUMBER
-              ? parseInt(process.env.HARDHAT_FORK_NUMBER)
-              : undefined,
+            blockNumber: process.env.HARDHAT_FORK_NUMBER ? parseInt(process.env.HARDHAT_FORK_NUMBER) : undefined,
           }
         : undefined,
     },
     localhost: {
-      url: node_url("localhost"),
+      url: node_url('localhost'),
       accounts: accounts(),
-      ensRegistry: "0x4E065c622d584Fbe5D9078C3081840155FA69581",
+      ensRegistry: '0x4E065c622d584Fbe5D9078C3081840155FA69581',
     },
     mainnet: {
-      url: node_url("mainnet"),
-      accounts: accounts("mainnet"),
+      url: node_url('mainnet'),
+      accounts: accounts('mainnet'),
     },
     rinkeby: {
-      url: node_url("rinkeby"),
-      accounts: accounts("rinkeby"),
-      ensRegistry: "0x98Df287B6C145399Aaa709692c8D308357bC085D",
+      url: node_url('rinkeby'),
+      accounts: accounts('rinkeby'),
+      ensRegistry: '0x98Df287B6C145399Aaa709692c8D308357bC085D',
     },
     ropsten: {
-      url: node_url("ropsten"),
-      accounts: accounts("ropsten"),
-      ensRegistry: "0x6afe2cacee211ea9179992f89dc61ff25c61e923",
+      url: node_url('ropsten'),
+      accounts: accounts('ropsten'),
+      ensRegistry: '0x6afe2cacee211ea9179992f89dc61ff25c61e923',
     },
     xdai: {
-      url: node_url("xdai"),
-      accounts: accounts("xdai"),
-      ensRegistry: "0xaafca6b0c89521752e559650206d7c925fd0e530",
+      url: node_url('xdai'),
+      accounts: accounts('xdai'),
+      ensRegistry: '0xaafca6b0c89521752e559650206d7c925fd0e530',
     },
     polygon: {
-      url: node_url("polygon"),
-      accounts: accounts("polygon"),
-      ensRegistry: "0x4E065c622d584Fbe5D9078C3081840155FA69581",
+      url: node_url('polygon'),
+      accounts: accounts('polygon'),
+      ensRegistry: '0x4E065c622d584Fbe5D9078C3081840155FA69581',
     },
     frame: {
-      url: "http://localhost:1248",
-      httpHeaders: { origin: "hardhat" },
-      ensRegistry: "0x4E065c622d584Fbe5D9078C3081840155FA69581",
+      url: 'http://localhost:1248',
+      httpHeaders: { origin: 'hardhat' },
+      ensRegistry: '0x4E065c622d584Fbe5D9078C3081840155FA69581',
     },
   },
   ipfs: {
     pinata: {
-      key: process.env.PINATA_KEY || "",
-      secret: process.env.PINATA_SECRET_KEY || "",
+      key: process.env.PINATA_KEY || '',
+      secret: process.env.PINATA_SECRET_KEY || '',
     },
   },
   gasReporter: {
@@ -97,9 +93,9 @@ module.exports = {
         deployments: {
           // process.env.HARDHAT_FORK will specify the network that the fork is made from.
           // these lines allow it to fetch the deployments from the network being forked from both for node and deploy task
-          hardhat: ["deployments/" + process.env.HARDHAT_FORK],
-          localhost: ["deployments/" + process.env.HARDHAT_FORK],
+          hardhat: ['deployments/' + process.env.HARDHAT_FORK],
+          localhost: ['deployments/' + process.env.HARDHAT_FORK],
         },
       }
     : undefined,
-};
+}
